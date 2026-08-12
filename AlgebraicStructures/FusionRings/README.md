@@ -59,8 +59,8 @@ The interpretation of the values of the fields of a fusion ring is the following
 * realizations: JSON dictionary mapping strings representing realizations of fusion rings in terms of other ones to data that allows to reconstruct the realization. At the moment it contains the following fields
   * "tensor_product": vector of vectors of uuids representing rings whose (based) tensor product is isomorphic to this ring.
 * automorphisms: JSON dictionary with the following fields:
-  * "group": string containing a LaTeX name of the automorphism group of the fusion ring.
-  * "cycles": minimal list of vectors of integers representing cycles that generate the automorhism group of the fusion ring with the current order of elements.
+* "group": string containing a LaTeX name of the automorphism group of the fusion ring.
+* "cycles": minimal list of vectors of integers representing cycles that generate the automorhism group of the fusion ring with the current order of elements.
 * is_group_ring: true if the ring is a group ring, false if not.
 * is_nilpotent: true if the ring is nilpotent, false if not.
 * is_simple: true if the ring is simple, false if not.
