@@ -45,6 +45,7 @@ The interpretation of the values of the fields of a fusion ring is the following
   * "Braided"
   * "Ribbon"
   * "Modular"
+  
   and whose fields are lists [ bool, method, reason ] where
   * bool: equals true if the ring is categorifiable to a category with the respective property, false if it is known it doesn't.
   * method: can be "Theory" if the information of bool is based on a theoretical result or "Computer" if it is based on a computer calculation.
