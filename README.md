@@ -79,3 +79,4 @@ At this moment it is still easy to determine which papers to cite.
 
 ## License
 The data is free for use for anyone but if you use it as part of a package we kindly remind you to read and copy the MIT license.
+This repository uses results that were obtained using software whose MIT licenses are stored in the folder LICENSES where each license filename has the structure `softwarename-LICENSE`. 
