@@ -1,8 +1,8 @@
 # AnyonWikiDatabase
 
 This repository contains all data used by the anyonwiki. In particular, it provides
-* The list of (>25000) fusion rings including all multiplicity fusion rings up to rank 10
-* The list of 989 fusion categories which should encompass all multiplicity-free fusion categories up to rank 7
+* The 989 (braided) pivotal fusion categories which should encompass all multiplicity-free fusion categories up to rank 7
+* The 25000+ fusion rings including all multiplicity fusion rings up to rank 10
 * A dataset of LaTeX representations of algebraic numbers
 
 The data on the **fusion categories** includes
