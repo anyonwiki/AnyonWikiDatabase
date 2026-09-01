@@ -1,3 +1,5 @@
+[![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/anyonwiki/AnyonWikiDatabase/)](https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/anyonwiki/AnyonWikiDatabase)
+
 # AnyonWikiDatabase
 
 This repository contains all data used by the anyonwiki. In particular, it provides
