@@ -22,7 +22,7 @@ on:
   workflow_dispatch:
     inputs:
       api_ref:
-        description: "Branch/tag/SHA of anyonwiki/api to use"
+        description: "Branch/tag/SHA of anyonwiki/backend to use"
         required: false
         default: main
 
@@ -34,7 +34,7 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     env:
-      API_REPO: anyonwiki/api
+      API_REPO: anyonwiki/backend
       # Local throwaway database (service container below).
       DATABASE_URL: postgresql://postgres:postgres@localhost:5432/anyonwiki_ci
       NODE_OPTIONS: --max-old-space-size=4096
@@ -66,7 +66,7 @@ jobs:
           repository: ${{ env.API_REPO }}
           ref: ${{ github.event.inputs.api_ref || 'main' }}
           path: api
-          token: ${{ secrets.API_REPO_TOKEN }} # remove if api is public
+          token: ${{ secrets.API_REPO_TOKEN }} # remove if backend is public
 
       - name: Set up Node
         uses: actions/setup-node@v4

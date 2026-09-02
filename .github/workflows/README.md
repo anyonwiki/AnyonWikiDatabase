@@ -3,13 +3,13 @@
 Two GitHub Actions workflows keep the live site in sync with this repository.
 
 The data lives here, but the Prisma schema and the import scripts live in the
-private `anyonwiki/api` repository. Every job therefore checks out **both**
+private `anyonwiki/backend` repository. Every job therefore checks out **both**
 repositories side by side and runs `api`'s code against this repository's files.
 
 | Repository | Provides |
 | --- | --- |
 | `anyonwiki/AnyonWikiDatabase` | The data, and these workflows |
-| `anyonwiki/api` | Prisma schema, importers, validation script |
+| `anyonwiki/backend` | Prisma schema, importers, validation script |
 
 ## Overview
 
@@ -67,7 +67,7 @@ you an approval step before anything is destroyed.
 
 `API_REPO_TOKEN` is needed because the automatic `GITHUB_TOKEN` is scoped to the
 repository running the workflow and cannot check out a second repository. A
-fine-grained PAT limited to `anyonwiki/api` with **Contents: read-only** is
+fine-grained PAT limited to `anyonwiki/backend` with **Contents: read-only** is
 enough. If `api` ever becomes public, delete the `token:` lines instead.
 
 > [!IMPORTANT]

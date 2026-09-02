@@ -9,8 +9,8 @@
 #   - Environment named "production" (recommended: add required reviewers so a
 #     human approves each seed run).
 #   - Secret DATABASE_URL       -> Postgres connection string.
-#   - Secret API_REPO_TOKEN     -> (only if the api repo is private) a PAT with
-#                                  read access to anyonwiki/api. If the api repo
+#   - Secret API_REPO_TOKEN     -> (only if the backend repo is private) a PAT with
+#                                  read access to anyonwiki/backend. If the backend repo
 #                                  is public, remove the `token:` line below.
 #
 # Trigger: manual (workflow_dispatch). Optionally uncomment the `push` trigger
@@ -22,7 +22,7 @@ on:
   workflow_dispatch:
     inputs:
       api_ref:
-        description: "Branch/tag/SHA of anyonwiki/api to use"
+        description: "Branch/tag/SHA of anyonwiki/backend to use"
         required: false
         default: main
   # push:
@@ -40,7 +40,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: production
     env:
-      API_REPO: anyonwiki/api
+      API_REPO: anyonwiki/backend
       DATABASE_URL: ${{ secrets.DATABASE_URL }}
       NODE_OPTIONS: --max-old-space-size=4096
 
@@ -57,7 +57,7 @@ jobs:
           repository: ${{ env.API_REPO }}
           ref: ${{ github.event.inputs.api_ref || 'main' }}
           path: api
-          token: ${{ secrets.API_REPO_TOKEN }} # remove if api is public
+          token: ${{ secrets.API_REPO_TOKEN }} # remove if backend is public
 
       - name: Set up Node
         uses: actions/setup-node@v4
