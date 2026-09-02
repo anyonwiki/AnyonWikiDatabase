@@ -1,0 +1,111 @@
+# CI gate for data changes: validates the dataset end-to-end against a
+# throwaway PostgreSQL instance WITHOUT touching production. It pushes the
+# schema, runs all importers, and runs the data-integrity checks. If anything
+# fails, the check fails -- so broken data never gets promoted/deployed.
+#
+# This addresses the "don't update the site if parts break after a data update"
+# requirement: gate merges to main (and thus any production seed) on this job.
+
+name: Validate data
+
+on:
+  pull_request:
+    paths:
+      - "AlgebraicStructures/**"
+      - "SupportingData/**"
+      - ".github/workflows/**"
+  push:
+    branches: [main]
+    paths:
+      - "AlgebraicStructures/**"
+      - "SupportingData/**"
+  workflow_dispatch:
+    inputs:
+      api_ref:
+        description: "Branch/tag/SHA of anyonwiki/api to use"
+        required: false
+        default: main
+
+concurrency:
+  group: validate-data-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    env:
+      API_REPO: anyonwiki/api
+      # Local throwaway database (service container below).
+      DATABASE_URL: postgresql://postgres:postgres@localhost:5432/anyonwiki_ci
+      NODE_OPTIONS: --max-old-space-size=4096
+
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: anyonwiki_ci
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 10
+
+    steps:
+      - name: Check out data (this repo)
+        uses: actions/checkout@v4
+        with:
+          path: AnyonWikiDatabase
+
+      - name: Check out api repo
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.API_REPO }}
+          ref: ${{ github.event.inputs.api_ref || 'main' }}
+          path: api
+          token: ${{ secrets.API_REPO_TOKEN }} # remove if api is public
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: api/package-lock.json
+
+      - name: Install api dependencies
+        working-directory: api
+        run: npm ci
+
+      # Compile check: broken API code or schema fails here before any seeding.
+      - name: Build api
+        working-directory: api
+        run: npm run build
+
+      - name: Push schema to CI database
+        working-directory: api
+        run: npx prisma db push --force-reset --accept-data-loss
+
+      - name: Import algebraic numbers
+        working-directory: api
+        run: >-
+          npm run algebraic-import-data --
+          --path="../AnyonWikiDatabase/SupportingData/AlgebraicNumbers"
+
+      - name: Import fusion rings
+        working-directory: api
+        run: >-
+          npm run fr-import-data --
+          --path="../AnyonWikiDatabase/AlgebraicStructures/FusionRings"
+
+      - name: Import fusion categories
+        working-directory: api
+        run: >-
+          npm run fc-import-data --
+          --path="../AnyonWikiDatabase/AlgebraicStructures/FusionCategories/MultFreeFusionCategories"
+
+      - name: Validate data
+        working-directory: api
+        run: npm run validate-data

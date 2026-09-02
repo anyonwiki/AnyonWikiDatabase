@@ -1,0 +1,107 @@
+# Seeds the AnyonWiki PostgreSQL database from the data in this repository.
+#
+# It checks out the `api` repo (which owns the Prisma schema + importers) next
+# to the data, pushes the schema (full wipe -- the data model is UUID-based and
+# intentionally re-seeded from scratch), then imports algebraic numbers, fusion
+# rings, and fusion categories in that order.
+#
+# Requirements (configure in repo Settings):
+#   - Environment named "production" (recommended: add required reviewers so a
+#     human approves each seed run).
+#   - Secret DATABASE_URL       -> Postgres connection string.
+#   - Secret API_REPO_TOKEN     -> (only if the api repo is private) a PAT with
+#                                  read access to anyonwiki/api. If the api repo
+#                                  is public, remove the `token:` line below.
+#
+# Trigger: manual (workflow_dispatch). Optionally uncomment the `push` trigger
+# to auto-seed when data changes land on main.
+
+name: Seed database
+
+on:
+  workflow_dispatch:
+    inputs:
+      api_ref:
+        description: "Branch/tag/SHA of anyonwiki/api to use"
+        required: false
+        default: main
+  # push:
+  #   branches: [main]
+  #   paths:
+  #     - "AlgebraicStructures/**"
+  #     - "SupportingData/**"
+
+concurrency:
+  group: seed-database
+  cancel-in-progress: false
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    environment: production
+    env:
+      API_REPO: anyonwiki/api
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      NODE_OPTIONS: --max-old-space-size=4096
+
+    steps:
+      - name: Check out data (this repo)
+        uses: actions/checkout@v4
+        with:
+          path: AnyonWikiDatabase
+          # Data files are large; if you adopt Git LFS, also set: lfs: true
+
+      - name: Check out api repo
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.API_REPO }}
+          ref: ${{ github.event.inputs.api_ref || 'main' }}
+          path: api
+          token: ${{ secrets.API_REPO_TOKEN }} # remove if api is public
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: api/package-lock.json
+
+      - name: Install api dependencies
+        working-directory: api
+        run: npm ci
+
+      - name: Generate Prisma client
+        working-directory: api
+        run: npx prisma generate
+
+      - name: Push schema (full reset)
+        working-directory: api
+        run: npx prisma db push --force-reset --accept-data-loss
+
+      # Import order matters: algebraic numbers are independent; rings must exist
+      # before categories so parent-ring D_FP can be denormalized and FKs resolve.
+      - name: Import algebraic numbers
+        working-directory: api
+        run: >-
+          npm run algebraic-import-data --
+          --path="../AnyonWikiDatabase/SupportingData/AlgebraicNumbers"
+
+      - name: Import fusion rings
+        working-directory: api
+        run: >-
+          npm run fr-import-data --
+          --path="../AnyonWikiDatabase/AlgebraicStructures/FusionRings"
+
+      - name: Import fusion categories
+        working-directory: api
+        run: >-
+          npm run fc-import-data --
+          --path="../AnyonWikiDatabase/AlgebraicStructures/FusionCategories/MultFreeFusionCategories"
+
+      - name: Validate seeded data
+        working-directory: api
+        run: npm run validate-data
+
+      - name: Summary
+        if: always()
+        run: echo "Seeding finished with status ${{ job.status }}"
