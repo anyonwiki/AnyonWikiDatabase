@@ -1,5 +1,5 @@
 # JSON Files Containing Multiplicity Free Fusion Categories
-Below is an explanation of the contents of each of the files in which fusion rings are stored. The files themselves contain this information under the "info" field. If the info below differs from that of a stored file then the "info" field of that file is the most up to dat source for the interpretation of the data. 
+Below is an explanation of the contents of each of the files in which fusion categories are stored. The files themselves contain this information under the "info" field. If the info below differs from that of a stored file then the "info" field of that file is the most up to dat source for the interpretation of the data. 
 
 ## Conventions used
 
