@@ -63,9 +63,18 @@ The following conventions are used in explaining the values of the dictionary:
     * is_braided: true if the fusion category is braided, false if not
     * is_ribbon: true if the fusion category is ribbon, false if not
     * is_modular: true if the fusion category is modular, false if not
-    * software: JSON dictionary mapping names of fields to a list of reference to software that played a significant role in obtain the data in the way it is represented here. Special field names are
+    * software: JSON dictionary mapping names of fields to a dictionary describing to software that played a significant role in obtain the data in the way it is represented here. Special field names are
+  * "all": when all fields of the ring point to the same software
+  * "all_other_data": when all other data, besides the data having specific references, points to the same software.
+  the interpretation of the field names of the dictionary are the following
+    * name: string that represents the name of the software
+    * swhid: string that represents the swhid of the specific revision of software, if backed up by the software heritage foundation. This should contain the substring ":rev:". If not available this field is null.
+    * doi: string that represents the doi of the software version if available, null otherwise.
+    * version: string that represents the version of the software
+  either the doi or the swhid fields must be included to be considered a valid reference
       * "all": when all fields of the category point to the same software
       * "all_other_data": when all other data, besides the data having specific references, points to the same software.
     * references: JSON dictionary mapping names of fields to a list of references to the paper that played a significant role in obtaining the data in the way it is represented here. Special field names are the same as for software. Only papers that have lead to the data as currently represented are included and thus no papers that represent theory that was not directly used, or ,e.g. , data in another format that was not used to obtain current data.
+    * realizations: JSON dictionary mapping kinds of realizations of the fusion category in terms of other categories using specific constructions. At the moment the only available key is "Deligne_product" which points to a list of lists of uuids whose Deligne product results in the current category.
 ```
 

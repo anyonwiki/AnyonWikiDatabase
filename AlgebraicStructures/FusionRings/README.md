@@ -1,9 +1,9 @@
 # JSON Files Containing Fusion Rings
-Below is an explanation of the contents of each of the files in which fusion rings are stored. The files themselves contain this information under the "info" field. If the info below differs from that of a stored file then the "info" field of that file is the most up to dat source for the interpretation of the data. 
+Below is an explanation of the contents of each of the files in which fusion rings are stored. The files themselves contain this information under the "info" field. If the info below differs from that of a stored file then the "info" field of that file is the most up to dat source for the interpretation of the data.
 
 ## Conventions used
 
-``` 
+```
 The following conventions are used in explaining the values of the dictionaries
     * A qqb_id is a string that uniquely describes an algebraic number. It is formatted as a list of n integers a0, ..., an, separated by underscores, followed by a double underscore, followed by an integer i: "a0_a1_..._an__i". Here a0 to an are the coefficients of a polynomial a0 + a1*x + ... + an*x^n and i denotes the i'th root of that polynomial. The indexing of roots of the polynomial takes the real roots first, in increasing order. Then come complex conjugate pairs of roots, sorted first by increasing real part and second by increasing complex part.
     * A ctf, or complex tuple of floats, is a representation of a complex floating point number a + i b by vector [ a, b ] where a and b are real floating point numbers.
@@ -57,9 +57,15 @@ The interpretation of the values of the fields of a fusion ring is the following
       * reason: gives a more in-depth reason for why the value of bool is what it is. This could, e.g., be a reference to a theorem in a paper or a version of a software package used.
     * categorifications: a list of uuids of known fusion categories that categorify the fusion ring. It only contains uuids of categories of which the data is stored.
     * references: JSON dictionary mapping names of fields to a list of references to the paper that played a significant role in obtaining the data in the way it is represented here. Special field names are the same as for software. Only papers that have lead to the data as currently represented are included and thus no papers that represent theory that was not directly used, or ,e.g. , data in another format that was not used to obtain current data.
-    * software: JSON dictionary mapping names of fields to a list of reference to software that played a significant role in obtain the data in the way it is represented here. Special field names are
-      * "all": when all fields of the ring point to the same software
-      * "all_other_data": when all other data, besides the data having specific references, points to the same software.
+    * software: JSON dictionary mapping names of fields to a dictionary describing to software that played a significant role in obtain the data in the way it is represented here. Special field names are
+  * "all": when all fields of the ring point to the same software
+  * "all_other_data": when all other data, besides the data having specific references, points to the same software.
+  the interpretation of the field names of the dictionary are the following
+    * name: string that represents the name of the software
+    * swhid: string that represents the swhid of the specific revision of software, if backed up by the software heritage foundation. This should contain the substring ":rev:". If not available this field is null.
+    * doi: string that represents the doi of the software version if available, null otherwise.
+    * version: string that represents the version of the software
+  either the doi or the swhid fields must be included to be considered a valid reference
     * all_gradings: vector of vectors [ els, uuid ] where ring[uuid] the group ring that grades this fusion ring, and els are elements of ring[uuid] that grade the elements of the parent ring.
     * upper_central_series: list of vectors v_i =  [ els_i, uuid_i ] where ring[uuid_i] is the ring isomorphic to the adjoint fusion ring of the ring[uuid_{i-1}]. els_i are the elements of ring[uuid_{i-1}] that form its adoint fusion ring. v1 is by definition the couple of all elements of the parent ring and the parent ring itself. Each adjoint ring has its elements in the same order as the original ring and thus not necessarily in the order of the stored ring.
     * realizations: JSON dictionary mapping strings representing realizations of fusion rings in terms of other ones to data that allows to reconstruct the realization. At the moment it contains the following fields
@@ -74,6 +80,5 @@ The interpretation of the values of the fields of a fusion ring is the following
     * is_weakly_integral: true if the ring is nilpotent, false if not.
     * is_non_trivially_graded: true if the ring has a non-trivial grading, false if not.
     * is_commutative: true if the ring is commutative, false if not.
+    * realizations: JSON dictionary mapping kinds of realizations of the fusion ring in terms of other fusion rings using specific constructions. At the moment the only available key is "tensor_product" which points to a list of lists of uuids whose tensor product results in the current fusion ring.
 ```
-
-
