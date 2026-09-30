@@ -80,4 +80,5 @@ The interpretation of the values of the fields of a fusion ring is the following
     * is_weakly_integral: true if the ring is nilpotent, false if not.
     * is_non_trivially_graded: true if the ring has a non-trivial grading, false if not.
     * is_commutative: true if the ring is commutative, false if not.
+    * realizations: JSON dictionary mapping kinds of realizations of the fusion ring in terms of other fusion rings using specific constructions. At the moment the only available key is "tensor_product" which points to a list of lists of uuids whose tensor product results in the current fusion ring.
 ```

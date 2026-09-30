@@ -1578,7 +1578,7 @@
         [2.0,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d83f4d7a-812e-11f1-8a62-cfdfd2e38683"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -1592,7 +1592,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -3178,7 +3178,7 @@
         [2.56155281280883,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d83f78a2-812e-11f1-ab17-61d9dde62b1a"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -3192,7 +3192,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -4791,7 +4791,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -6374,7 +6374,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -7957,7 +7957,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -9540,7 +9540,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -11109,7 +11109,7 @@
         [2.0,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d83fb710-812e-11f1-a996-4367fcb80e38"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -11123,7 +11123,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -12706,7 +12706,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -14289,7 +14289,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -15872,7 +15872,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -17455,7 +17455,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -19038,7 +19038,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -20607,7 +20607,7 @@
         [3.2360679774997894,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d83fb710-812e-11f1-a996-4367fcb80e38"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -20621,7 +20621,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -22204,7 +22204,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -23787,7 +23787,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -25370,7 +25370,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -26950,7 +26950,7 @@
         [3.2360679774997894,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d83f4d7a-812e-11f1-8a62-cfdfd2e38683"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -26964,7 +26964,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -28544,7 +28544,7 @@
         [4.144679515102584,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d83f78a2-812e-11f1-ab17-61d9dde62b1a"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -28558,7 +28558,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -30127,7 +30127,7 @@
         [3.513337091666135,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d840b4da-812e-11f1-b82f-d50961219d6b"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -30141,7 +30141,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -31710,7 +31710,7 @@
         [3.2360679774997894,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d840342e-812e-11f1-8eb3-b9faf0e05364"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -31724,7 +31724,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -33293,7 +33293,7 @@
         [5.236067977499789,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d840342e-812e-11f1-8eb3-b9faf0e05364"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -33307,7 +33307,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -34890,7 +34890,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -36473,7 +36473,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -38056,7 +38056,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -39625,7 +39625,7 @@
         [3.214319743377535,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d8403bc2-812e-11f1-ab06-ab93373222bc"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -39639,7 +39639,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -41222,7 +41222,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -42805,7 +42805,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -44388,7 +44388,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -45957,7 +45957,7 @@
         [5.684698828251511,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d840b4da-812e-11f1-b82f-d50961219d6b"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -45971,7 +45971,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -47540,7 +47540,7 @@
         [5.200878595494691,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d8403bc2-812e-11f1-ab06-ab93373222bc"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -47554,7 +47554,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -49137,7 +49137,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -50720,7 +50720,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -52289,7 +52289,7 @@
         [2.0,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d83f9eb0-812e-11f1-9ebb-b7427eca0286"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -52303,7 +52303,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -53872,7 +53872,7 @@
         [2.3027756377319943,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d83fe8de-812e-11f1-bab5-abb8c0802011"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -53886,7 +53886,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -55469,7 +55469,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -57038,7 +57038,7 @@
         [3.0,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d83fff68-812e-11f1-835b-5303cb054e29"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -57052,7 +57052,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -58635,7 +58635,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -60218,7 +60218,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -61787,7 +61787,7 @@
         [3.2360679774997894,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d83f9eb0-812e-11f1-9ebb-b7427eca0286"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -61801,7 +61801,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -63370,7 +63370,7 @@
         [3.725969250315582,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d83fe8de-812e-11f1-bab5-abb8c0802011"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -63384,7 +63384,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -64953,7 +64953,7 @@
         [4.854101966249684,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d83fff68-812e-11f1-835b-5303cb054e29"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -64967,7 +64967,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -66536,7 +66536,7 @@
         [5.524313588770527,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d84064a6-812e-11f1-a81a-5b3ff16e9f68"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -66550,7 +66550,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -68133,7 +68133,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -69702,7 +69702,7 @@
         [3.414213562373095,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d84064a6-812e-11f1-a81a-5b3ff16e9f68"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -69716,7 +69716,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -71299,7 +71299,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -72882,7 +72882,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -74465,7 +74465,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -76048,7 +76048,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -77631,7 +77631,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -79214,7 +79214,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -80797,7 +80797,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -82380,7 +82380,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -83963,7 +83963,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -85546,7 +85546,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -87145,7 +87145,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -88744,7 +88744,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -90327,7 +90327,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -91910,7 +91910,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -93493,7 +93493,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -95076,7 +95076,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -96659,7 +96659,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -98242,7 +98242,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -99825,7 +99825,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -101144,7 +101144,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -102463,7 +102463,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -103782,7 +103782,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -105112,7 +105112,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -106431,7 +106431,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -107761,7 +107761,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -109080,7 +109080,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -110411,7 +110411,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -111994,7 +111994,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -113313,7 +113313,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -114632,7 +114632,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -115951,7 +115951,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -117270,7 +117270,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -118589,7 +118589,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -119908,7 +119908,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -121491,7 +121491,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -123074,7 +123074,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -124657,7 +124657,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -126240,7 +126240,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -127571,7 +127571,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -128890,7 +128890,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -130209,7 +130209,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -131528,7 +131528,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -132847,7 +132847,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -134166,7 +134166,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -135485,7 +135485,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -136804,7 +136804,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -138123,7 +138123,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -139442,7 +139442,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -140761,7 +140761,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -142344,7 +142344,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -143927,7 +143927,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -145246,7 +145246,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -146829,7 +146829,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -148398,7 +148398,7 @@
         [3.2360679774997894,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d840d9e4-812e-11f1-88d9-e58344ac1c95"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -148412,7 +148412,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -149981,7 +149981,7 @@
         [4.144679515102584,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d840f10c-812e-11f1-bb76-f120abe3ee41"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -149995,7 +149995,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -151564,7 +151564,7 @@
         [2.0,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d8411b70-812e-11f1-88a7-69bebc16aa50"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -151578,7 +151578,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -153161,7 +153161,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -154744,7 +154744,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -156327,7 +156327,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -157910,7 +157910,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -159229,7 +159229,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -160798,7 +160798,7 @@
         [3.0,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d8413354-812e-11f1-8a0d-716e0dcf82a1"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -160812,7 +160812,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -162395,7 +162395,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -163978,7 +163978,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -165561,7 +165561,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -167144,7 +167144,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -168727,7 +168727,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -170046,7 +170046,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -171629,7 +171629,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -173212,7 +173212,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -174795,7 +174795,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -176378,7 +176378,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -177697,7 +177697,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -179016,7 +179016,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -180335,7 +180335,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -181918,7 +181918,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -183501,7 +183501,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -184820,7 +184820,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -186139,7 +186139,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -187458,7 +187458,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -189027,7 +189027,7 @@
         [3.2360679774997894,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d8411b70-812e-11f1-88a7-69bebc16aa50"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -189041,7 +189041,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -190624,7 +190624,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -192207,7 +192207,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -193790,7 +193790,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -195373,7 +195373,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -196956,7 +196956,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -198539,7 +198539,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -200122,7 +200122,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -201441,7 +201441,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -202760,7 +202760,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -204079,7 +204079,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -205398,7 +205398,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -206717,7 +206717,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -208036,7 +208036,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -209605,7 +209605,7 @@
         [2.56155281280883,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d840f10c-812e-11f1-bb76-f120abe3ee41"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -209619,7 +209619,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -211202,7 +211202,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -212785,7 +212785,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -214368,7 +214368,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -215951,7 +215951,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -217520,7 +217520,7 @@
         [2.0,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d840d9e4-812e-11f1-88d9-e58344ac1c95"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -217534,7 +217534,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -219103,7 +219103,7 @@
         [3.214319743377535,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d841f3d6-812e-11f1-9f3b-ed3141479e4b"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -219117,7 +219117,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -220686,7 +220686,7 @@
         [5.200878595494691,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d841f3d6-812e-11f1-9f3b-ed3141479e4b"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -220700,7 +220700,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -222269,7 +222269,7 @@
         [4.854101966249684,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d8413354-812e-11f1-8a0d-716e0dcf82a1"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -222283,7 +222283,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -223866,7 +223866,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -225449,7 +225449,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -227032,7 +227032,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -228615,7 +228615,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -230198,7 +230198,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -231781,7 +231781,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -233364,7 +233364,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -234947,7 +234947,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -236530,7 +236530,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -238113,7 +238113,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -239432,7 +239432,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -240751,7 +240751,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -242070,7 +242070,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -243389,7 +243389,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -244972,7 +244972,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -246555,7 +246555,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -248138,7 +248138,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -249457,7 +249457,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -250776,7 +250776,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -252095,7 +252095,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -253678,7 +253678,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -254997,7 +254997,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -256580,7 +256580,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -257899,7 +257899,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -259218,7 +259218,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -260801,7 +260801,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -262384,7 +262384,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -263967,7 +263967,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -265550,7 +265550,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -267133,7 +267133,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -268716,7 +268716,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -270299,7 +270299,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -271868,7 +271868,7 @@
         [1.0,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d841fad4-812e-11f1-bb27-ef280007e353"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -271882,7 +271882,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -273451,7 +273451,7 @@
         [1.6180339887498947,0.0]
       ],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d841fad4-812e-11f1-bb27-ef280007e353"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -273465,7 +273465,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -275048,7 +275048,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -276631,7 +276631,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -278214,7 +278214,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -279797,7 +279797,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -281380,7 +281380,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -282963,7 +282963,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -284282,7 +284282,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -285601,7 +285601,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -287184,7 +287184,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -288767,7 +288767,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -290086,7 +290086,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -291669,7 +291669,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -293252,7 +293252,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": null,
         "physics": null,
@@ -293316,7 +293316,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Trivial}"],
         "physics": null,
@@ -293380,7 +293380,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\mathbb{Z}_2","\\text{SU}(2)_1","\\text{TY}( \\mathbb{Z}_1)","\\left[I\\trianglelefteq I\\right]_{\\mathbf{1}|0}^{\\text{Id}}"],
         "physics": null,
@@ -293444,7 +293444,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Fib}","\\text{PSU}(2)_3","\\text{HI}( \\mathbb{Z}_1)","\\left[I\\trianglelefteq I\\right]_{\\mathbf{1}|1}^{\\text{Id}}"],
         "physics": null,
@@ -293525,7 +293525,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Ising}","\\text{SU}(2)_2","\\text{TY}( \\mathbb{Z}_2)","\\left[\\mathbb{Z}_{2} \\trianglelefteq \\mathbb{Z}_{2}\\right]_{ \\mathbf{1}|0}^{ \\text{Id}}"],
         "physics": null,
@@ -293589,7 +293589,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Rep}( D_3)","\\text{PSU}(2)_4","\\text{Rep}( S_3)","\\left[\\mathbb{Z}_{2} \\trianglelefteq \\mathbb{Z}_{2}\\right]_{ \\mathbf{1}|1}^{ \\text{Id}}"],
         "physics": null,
@@ -293653,7 +293653,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{PSU}(2)_5"],
         "physics": null,
@@ -293728,7 +293728,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\mathbb{Z}_3","\\text{SU(3})_1"],
         "physics": null,
@@ -293814,7 +293814,7 @@
       "numeric_frobenius_perron_dimension": [4.0,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d810876c-812e-11f1-9999-b9a2d35bb71a"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -293828,7 +293828,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\mathbb{Z}_2\\otimes \\mathbb{Z}_2","\\left[I\\trianglelefteq \\mathbb{Z}_2\\right]_{\\mathbf{1}|0}^{\\text{Id}}"],
         "physics": null,
@@ -293911,7 +293911,7 @@
       "numeric_frobenius_perron_dimension": [7.236067977499789,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.6180339887498947,0.0],[1.6180339887498947,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d810a768-812e-11f1-8f24-516eff0ae265"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -293925,7 +293925,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{SU}(2)_3","\\text{Fib$\\otimes $}\\mathbb{Z}_2"],
         "physics": null,
@@ -293989,7 +293989,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Rep}( D_5)","\\text{SO(5})_2/\\mathbb{Z}_2"],
         "physics": null,
@@ -294053,7 +294053,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{PSU}(2)_6","\\text{HI}( \\mathbb{Z}_2)","\\left[I\\trianglelefteq \\mathbb{Z}_2\\right]_{\\mathbf{1}|1}^{\\text{Id}}"],
         "physics": null,
@@ -294114,7 +294114,7 @@
       "numeric_frobenius_perron_dimension": [13.090169943749473,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.6180339887498947,0.0],[1.6180339887498947,0.0],[2.6180339887498945,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d810a768-812e-11f1-8f24-516eff0ae265"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -294128,7 +294128,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Fib}\\otimes\\text{Fib}"],
         "physics": null,
@@ -294192,7 +294192,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{PSU}(2)_7"],
         "physics": null,
@@ -294287,7 +294287,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\mathbb{Z}_4","\\text{SU(4})_1","\\left[I\\trianglelefteq \\mathbb{Z}_2\\right]_{\\mathbf{2}|0}^{\\text{Id}}"],
         "physics": null,
@@ -294351,7 +294351,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{TY}( \\mathbb{Z}_3)","\\left[\\mathbb{Z}_{3} \\trianglelefteq \\mathbb{Z}_{3}\\right]_{ \\mathbf{1}|0}^{ \\text{Id}}","\\text{TY}(\\mathbb{Z}_3)"],
         "physics": null,
@@ -294415,7 +294415,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Fib(} \\mathbb{Z}_3)","\\left[\\mathbb{Z}_{3} \\trianglelefteq \\mathbb{Z}_{3}\\right]_{ \\mathbf{1}|1}^{ \\text{Id}}"],
         "physics": null,
@@ -294479,7 +294479,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Pseudo PSU}(2)_6","\\left[I\\trianglelefteq \\mathbb{Z}_2\\right]_{\\mathbf{2}|1}^{\\text{Id}}"],
         "physics": null,
@@ -294584,7 +294584,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Rep}( D_4)","\\text{TY}( \\mathbb{Z}_2\\otimes \\mathbb{Z}_2)","\\left[\\mathbb{Z}_{2}\\otimes\\mathbb{Z}_{2} \\trianglelefteq \\mathbb{Z}_{2}\\otimes\\mathbb{Z}_{2}\\right]_{ \\mathbf{1}|0}^{ \\text{Id}}"],
         "physics": null,
@@ -294648,7 +294648,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Fib(} \\mathbb{Z}_2\\otimes \\mathbb{Z}_2)","\\left[\\mathbb{Z}_{2}\\otimes\\mathbb{Z}_{2} \\trianglelefteq \\mathbb{Z}_{2}\\otimes\\mathbb{Z}_{2}\\right]_{ \\mathbf{1}|1}^{ \\text{Id}}"],
         "physics": null,
@@ -294712,7 +294712,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{SU}(2)_4"],
         "physics": null,
@@ -294776,7 +294776,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Rep}( D_7)","\\text{SO(7})_2/\\mathbb{Z}_2"],
         "physics": null,
@@ -294840,7 +294840,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{5,1,0}_{5}"],
         "physics": null,
@@ -294904,7 +294904,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Rep}( S_4)"],
         "physics": null,
@@ -294968,7 +294968,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{PSU}(2)_8","\\text{SO(3})_8"],
         "physics": null,
@@ -295032,7 +295032,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{5,1,0}_{8}"],
         "physics": null,
@@ -295096,7 +295096,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{5,1,0}_{9}"],
         "physics": null,
@@ -295171,7 +295171,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{PSU}(2)_9"],
         "physics": null,
@@ -295235,7 +295235,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{TY}( \\mathbb{Z}_4)","\\left[\\mathbb{Z}_{4} \\trianglelefteq \\mathbb{Z}_{4}\\right]_{ \\mathbf{1}|0}^{ \\text{Id}}"],
         "physics": null,
@@ -295299,7 +295299,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Fib(} \\mathbb{Z}_4)","\\left[\\mathbb{Z}_{4} \\trianglelefteq \\mathbb{Z}_{4}\\right]_{ \\mathbf{1}|1}^{ \\text{Id}}"],
         "physics": null,
@@ -295363,7 +295363,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Pseudo SU}(2)_4"],
         "physics": null,
@@ -295427,7 +295427,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Pseudo Rep}( S_4)"],
         "physics": null,
@@ -295491,7 +295491,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{5,1,2}_{5}"],
         "physics": null,
@@ -295570,7 +295570,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\mathbb{Z}_5","\\text{SU(5})_1"],
         "physics": null,
@@ -295703,7 +295703,7 @@
       "numeric_frobenius_perron_dimension": [8.0,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.414213562373095,0.0],[1.414213562373095,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d8246168-812e-11f1-b9f6-cb49027c023c"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -295717,7 +295717,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\mathbb{Z}_2\\otimes \\text{Ising}","\\left[\\mathbb{Z}_{2} \\trianglelefteq \\mathbb{Z}_{2}\\otimes\\mathbb{Z}_{2}\\right]_{ \\mathbf{1}|0}^{ \\text{Id}}"],
         "physics": null,
@@ -295800,7 +295800,7 @@
       "numeric_frobenius_perron_dimension": [12.0,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[2.0,0.0],[2.0,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d824dcce-812e-11f1-8979-8918dc37f65b"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -295814,7 +295814,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\mathbb{Z}_2\\otimes \\text{Rep}(D_3)"],
         "physics": null,
@@ -295878,7 +295878,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[\\mathbb{Z}_{2} \\trianglelefteq \\mathbb{Z}_{2}\\otimes\\mathbb{Z}_{2}\\right]_{ \\mathbf{1}|1}^{ \\text{Id}}"],
         "physics": null,
@@ -295993,7 +295993,7 @@
       "numeric_frobenius_perron_dimension": [14.472135954999578,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.414213562373095,0.0],[1.6180339887498947,0.0],[1.6180339887498947,0.0],[2.288245611270737,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d8246168-812e-11f1-b9f6-cb49027c023c"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -296007,7 +296007,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Fib}\\otimes\\text{Ising}","\\text{Fib$\\otimes $SU}(2)_2","\\text{TriCritIsing}"],
         "physics": null,
@@ -296070,7 +296070,7 @@
       "numeric_frobenius_perron_dimension": [21.708203932499366,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.6180339887498947,0.0],[1.6180339887498947,0.0],[2.0,0.0],[3.2360679774997894,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d824dcce-812e-11f1-8979-8918dc37f65b"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -296084,7 +296084,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Fib$\\otimes $Rep}( D_3)"],
         "physics": null,
@@ -296183,7 +296183,7 @@
       "numeric_frobenius_perron_dimension": [18.591793886479543,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.801937735804838,0.0],[1.801937735804838,0.0],[2.2469796037174667,0.0],[2.2469796037174667,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d824e23c-812e-11f1-920a-f9418ba41d6d"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -296197,7 +296197,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{SU}(2)_5","\\left.\\mathbb{Z}_2\\text{$\\otimes $ExtRep}(D_3\\right)","\\mathbb{Z}_2\\text{$\\otimes $SO(3})_5"],
         "physics": null,
@@ -296261,7 +296261,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Rep}( \\mathbb{Z}_3\\rtimes D_3)"],
         "physics": null,
@@ -296325,7 +296325,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Rep}( D_9)"],
         "physics": null,
@@ -296389,7 +296389,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{SO}(5)_2"],
         "physics": null,
@@ -296453,7 +296453,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{6,1,0}_{10}"],
         "physics": null,
@@ -296517,7 +296517,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{6,1,0}_{11}"],
         "physics": null,
@@ -296581,7 +296581,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{6,1,0}_{12}"],
         "physics": null,
@@ -296645,7 +296645,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{6,1,0}_{13}"],
         "physics": null,
@@ -296720,7 +296720,7 @@
       "numeric_frobenius_perron_dimension": [33.63287109655774,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.6180339887498947,0.0],[1.801937735804838,0.0],[2.2469796037174667,0.0],[2.9155965021432566,0.0],[3.635689370842631,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d824e23c-812e-11f1-920a-f9418ba41d6d"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -296734,7 +296734,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Fib$\\otimes $}\\text{PSU}(2)_5"],
         "physics": null,
@@ -296798,7 +296798,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{6,1,0}_{15}"],
         "physics": null,
@@ -296862,7 +296862,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{PSU}(2)_{10}"],
         "physics": null,
@@ -296926,7 +296926,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{6,1,0}_{17}"],
         "physics": null,
@@ -297003,7 +297003,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{PSU}(2)_{11}"],
         "physics": null,
@@ -297067,7 +297067,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{6,1,0}_{19}"],
         "physics": null,
@@ -297131,7 +297131,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{6,1,0}_{20}"],
         "physics": null,
@@ -297208,7 +297208,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["D_3","\\left[\\mathbf{3}"],
         "physics": null,
@@ -297293,7 +297293,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[\\mathbb{Z}_{2} \\trianglelefteq \\mathbb{Z}_{4}\\right]_{ \\mathbf{1}|0}^{ \\text{Id}}"],
         "physics": null,
@@ -297385,7 +297385,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[\\mathbb{Z}_{2} \\trianglelefteq \\mathbb{Z}_{2}\\otimes\\mathbb{Z}_{2}\\right]_{ \\mathbf{3}|0}^{ \\text{Id}}"],
         "physics": null,
@@ -297482,7 +297482,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Rep}( \\text{Dic}_{12})","\\text{Rep}( Q_{12})"],
         "physics": null,
@@ -297546,7 +297546,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[\\mathbb{Z}_{2} \\trianglelefteq \\mathbb{Z}_{4}\\right]_{ \\mathbf{1}|1}^{ \\text{Id}}"],
         "physics": null,
@@ -297610,7 +297610,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[\\mathbb{Z}_{2} \\trianglelefteq \\mathbb{Z}_{2}\\otimes\\mathbb{Z}_{2}\\right]_{ \\mathbf{3}|1}^{ \\text{Id}}"],
         "physics": null,
@@ -297674,7 +297674,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Pseudo SO(5})_2"],
         "physics": null,
@@ -297738,7 +297738,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{HI}( \\mathbb{Z}_3)","\\left[\\mathbf{3}"],
         "physics": null,
@@ -297802,7 +297802,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{6,1,2}_{9}"],
         "physics": null,
@@ -297866,7 +297866,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{6,1,2}_{10}"],
         "physics": null,
@@ -297930,7 +297930,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{6,1,2}_{11}"],
         "physics": null,
@@ -298045,7 +298045,7 @@
       "numeric_frobenius_perron_dimension": [6.0,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d824ec0a-812e-11f1-8aff-8740299055ca"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -298059,7 +298059,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\mathbb{Z}_6","\\mathbb{Z}_2\\otimes \\mathbb{Z}_3","\\left[I\\trianglelefteq \\mathbb{Z}_3\\right]_{\\mathbf{1}|0}^{\\text{Id}}"],
         "physics": null,
@@ -298136,7 +298136,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{MR}_6","\\left[\\mathbb{Z}_{2} \\trianglelefteq \\mathbb{Z}_{4}\\right]_{ \\mathbf{3}|0}^{ \\text{Id}}"],
         "physics": null,
@@ -298200,7 +298200,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{TY}( \\mathbb{Z}_5)","\\left[\\mathbb{Z}_{5} \\trianglelefteq \\mathbb{Z}_{5}\\right]_{ \\mathbf{1}|0}^{ \\text{Id}}"],
         "physics": null,
@@ -298264,7 +298264,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[\\mathbb{Z}_{5} \\trianglelefteq \\mathbb{Z}_{5}\\right]_{ \\mathbf{1}|1}^{ \\text{Id}}"],
         "physics": null,
@@ -298347,7 +298347,7 @@
       "numeric_frobenius_perron_dimension": [10.854101966249683,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.6180339887498947,0.0],[1.6180339887498947,0.0],[1.6180339887498947,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d824ec0a-812e-11f1-8aff-8740299055ca"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -298361,7 +298361,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Fib$\\otimes $}\\mathbb{Z}_3"],
         "physics": null,
@@ -298425,7 +298425,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[\\mathbb{Z}_{2} \\trianglelefteq \\mathbb{Z}_{4}\\right]_{ \\mathbf{3}|1}^{ \\text{Id}}"],
         "physics": null,
@@ -298489,7 +298489,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{6,1,4}_{7}"],
         "physics": null,
@@ -298553,7 +298553,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[I\\trianglelefteq \\mathbb{Z}_3\\right]_{\\mathbf{1}|1}^{\\text{Id}}"],
         "physics": null,
@@ -298674,7 +298674,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Adj}( \\text{SO}(16)_2)"],
         "physics": null,
@@ -298738,7 +298738,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,0}_{2}"],
         "physics": null,
@@ -298802,7 +298802,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,0}_{3}"],
         "physics": null,
@@ -298866,7 +298866,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,0}_{4}"],
         "physics": null,
@@ -298930,7 +298930,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,0}_{5}"],
         "physics": null,
@@ -298994,7 +298994,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Adj}( \\text{SO}(11)_2)"],
         "physics": null,
@@ -299075,7 +299075,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{SU}(2)_6"],
         "physics": null,
@@ -299139,7 +299139,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,0}_{8}"],
         "physics": null,
@@ -299203,7 +299203,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,0}_{9}"],
         "physics": null,
@@ -299267,7 +299267,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,0}_{10}"],
         "physics": null,
@@ -299331,7 +299331,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,0}_{11}"],
         "physics": null,
@@ -299395,7 +299395,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,0}_{12}"],
         "physics": null,
@@ -299459,7 +299459,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,0}_{13}"],
         "physics": null,
@@ -299523,7 +299523,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{PSU}(2)_{12}"],
         "physics": null,
@@ -299587,7 +299587,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,0}_{15}"],
         "physics": null,
@@ -299651,7 +299651,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,0}_{16}"],
         "physics": null,
@@ -299715,7 +299715,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{PSU}(2)_{13}"],
         "physics": null,
@@ -299779,7 +299779,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,0}_{18}"],
         "physics": null,
@@ -299843,7 +299843,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{TY}( D_3)","\\left[D_{3} \\trianglelefteq D_{3}\\right]_{ \\mathbf{1}|0}^{ \\text{Id}}"],
         "physics": null,
@@ -299907,7 +299907,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[D_{3} \\trianglelefteq D_{3}\\right]_{ \\mathbf{1}|1}^{ \\text{Id}}"],
         "physics": null,
@@ -299988,7 +299988,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,2}_{3}"],
         "physics": null,
@@ -300075,7 +300075,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{SD}_{16}"],
         "physics": null,
@@ -300139,7 +300139,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,2}_{5}"],
         "physics": null,
@@ -300203,7 +300203,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,2}_{6}"],
         "physics": null,
@@ -300267,7 +300267,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,2}_{7}"],
         "physics": null,
@@ -300331,7 +300331,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,2}_{8}"],
         "physics": null,
@@ -300395,7 +300395,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,2}_{9}"],
         "physics": null,
@@ -300459,7 +300459,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,2}_{10}"],
         "physics": null,
@@ -300540,7 +300540,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,2}_{11}"],
         "physics": null,
@@ -300604,7 +300604,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,2}_{12}"],
         "physics": null,
@@ -300668,7 +300668,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,2}_{13}"],
         "physics": null,
@@ -300732,7 +300732,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,2}_{14}"],
         "physics": null,
@@ -300796,7 +300796,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,2}_{15}"],
         "physics": null,
@@ -300860,7 +300860,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,2}_{16}"],
         "physics": null,
@@ -300924,7 +300924,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,2}_{17}"],
         "physics": null,
@@ -300988,7 +300988,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{TY}( \\mathbb{Z}_2\\otimes \\mathbb{Z}_3)","\\left[\\mathbb{Z}_{6} \\trianglelefteq \\mathbb{Z}_{6}\\right]_{ \\mathbf{1}|0}^{ \\text{Id}}"],
         "physics": null,
@@ -301052,7 +301052,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[\\mathbb{Z}_{6} \\trianglelefteq \\mathbb{Z}_{6}\\right]_{ \\mathbf{1}|1}^{ \\text{Id}}"],
         "physics": null,
@@ -301116,7 +301116,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,4}_{3}"],
         "physics": null,
@@ -301180,7 +301180,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,4}_{4}"],
         "physics": null,
@@ -301244,7 +301244,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,4}_{5}"],
         "physics": null,
@@ -301308,7 +301308,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,4}_{6}"],
         "physics": null,
@@ -301372,7 +301372,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{7,1,4}_{7}"],
         "physics": null,
@@ -301455,7 +301455,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\mathbb{Z}_7"],
         "physics": null,
@@ -301538,7 +301538,7 @@
       "numeric_frobenius_perron_dimension": [8.0,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring","ring"],["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d810876c-812e-11f1-9999-b9a2d35bb71a","d810876c-812e-11f1-9999-b9a2d35bb71a"],["d810876c-812e-11f1-9999-b9a2d35bb71a","d83d8706-812e-11f1-9ef5-37a7851e700f"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -301552,7 +301552,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\mathbb{Z}_2\\otimes \\mathbb{Z}_2\\otimes \\mathbb{Z}_2","\\left[I\\trianglelefteq \\mathbb{Z}_2\\times\\mathbb{Z}_2\\right]_{\\mathbf{1}|0}^{\\text{Id}}"],
         "physics": null,
@@ -301603,7 +301603,7 @@
       "numeric_frobenius_perron_dimension": [14.472135954999578,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.6180339887498947,0.0],[1.6180339887498947,0.0],[1.6180339887498947,0.0],[1.6180339887498947,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring","ring"],["ring","ring"],["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d810876c-812e-11f1-9999-b9a2d35bb71a","d810a768-812e-11f1-8f24-516eff0ae265"],["d810876c-812e-11f1-9999-b9a2d35bb71a","d83dd0c6-812e-11f1-9a8f-bf697bfe24e8"],["d810a768-812e-11f1-8f24-516eff0ae265","d83d8706-812e-11f1-9ef5-37a7851e700f"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -301617,7 +301617,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Fib$\\otimes $}\\mathbb{Z}_2\\otimes \\mathbb{Z}_2"],
         "physics": null,
@@ -301668,7 +301668,7 @@
       "numeric_frobenius_perron_dimension": [20.0,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[2.0,0.0],[2.0,0.0],[2.0,0.0],[2.0,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d83e0636-812e-11f1-8486-d1bff6f02c2d"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -301682,7 +301682,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Rep}(D_5\\text{)$\\otimes $}\\mathbb{Z}_2"],
         "physics": null,
@@ -301747,7 +301747,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,0}_{4}"],
         "physics": null,
@@ -301798,7 +301798,7 @@
       "numeric_frobenius_perron_dimension": [27.31370849898476,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[2.414213562373095,0.0],[2.414213562373095,0.0],[2.414213562373095,0.0],[2.414213562373095,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d83e75bc-812e-11f1-a39c-dd6358baad3c"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -301812,7 +301812,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{PSU}(2)_6\\otimes \\mathbb{Z}_2"],
         "physics": null,
@@ -301877,7 +301877,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,0}_{6}"],
         "physics": null,
@@ -301928,7 +301928,7 @@
       "numeric_frobenius_perron_dimension": [26.180339887498945,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.6180339887498947,0.0],[1.6180339887498947,0.0],[1.6180339887498947,0.0],[1.6180339887498947,0.0],[2.6180339887498945,0.0],[2.6180339887498945,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring","ring"],["ring","ring"],["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d810a768-812e-11f1-8f24-516eff0ae265","d810a768-812e-11f1-8f24-516eff0ae265"],["d810876c-812e-11f1-9999-b9a2d35bb71a","d83eb1a8-812e-11f1-bbd5-3b1d9300bfca"],["d810a768-812e-11f1-8f24-516eff0ae265","d83dd0c6-812e-11f1-9a8f-bf697bfe24e8"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -301942,7 +301942,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Fib$\\otimes $Fib$\\otimes $}\\mathbb{Z}_2"],
         "physics": null,
@@ -302007,7 +302007,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,0}_{8}"],
         "physics": null,
@@ -302072,7 +302072,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Adj}( \\text{SO}(13)_2)"],
         "physics": null,
@@ -302137,7 +302137,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,0}_{10}"],
         "physics": null,
@@ -302188,7 +302188,7 @@
       "numeric_frobenius_perron_dimension": [36.180339887498945,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.6180339887498947,0.0],[1.6180339887498947,0.0],[2.0,0.0],[2.0,0.0],[3.2360679774997894,0.0],[3.2360679774997894,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d83e0636-812e-11f1-8486-d1bff6f02c2d"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -302202,7 +302202,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Fib$\\otimes $} \\text{Rep}(D_5)"],
         "physics": null,
@@ -302267,7 +302267,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,0}_{12}"],
         "physics": null,
@@ -302332,7 +302332,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{SO}(9)_2"],
         "physics": null,
@@ -302397,7 +302397,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Rep(D(}D_3\\text{))}"],
         "physics": null,
@@ -302448,7 +302448,7 @@
       "numeric_frobenius_perron_dimension": [38.46884476685863,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.8793852415718166,0.0],[1.8793852415718166,0.0],[2.532088886237956,0.0],[2.532088886237956,0.0],[2.8793852415718164,0.0],[2.8793852415718164,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d83ed0d4-812e-11f1-8aca-296eaa022263"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -302462,7 +302462,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{SU}(2)_7"],
         "physics": null,
@@ -302513,7 +302513,7 @@
       "numeric_frobenius_perron_dimension": [49.41096285406687,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.6180339887498947,0.0],[1.6180339887498947,0.0],[2.414213562373095,0.0],[2.414213562373095,0.0],[3.906279600020632,0.0],[3.906279600020632,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d83e75bc-812e-11f1-a39c-dd6358baad3c"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -302527,7 +302527,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Fib$\\otimes $}\\text{PSU}(2)_6"],
         "physics": null,
@@ -302592,7 +302592,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,0}_{17}"],
         "physics": null,
@@ -302657,7 +302657,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,0}_{18}"],
         "physics": null,
@@ -302722,7 +302722,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,0}_{19}"],
         "physics": null,
@@ -302787,7 +302787,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,0}_{20}"],
         "physics": null,
@@ -302852,7 +302852,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,0}_{21}"],
         "physics": null,
@@ -302903,7 +302903,7 @@
       "numeric_frobenius_perron_dimension": [47.36067977499789,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.6180339887498947,0.0],[1.6180339887498947,0.0],[1.6180339887498947,0.0],[2.6180339887498945,0.0],[2.6180339887498945,0.0],[2.6180339887498945,0.0],[4.236067977499789,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring","ring"],["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d810a768-812e-11f1-8f24-516eff0ae265","d810a768-812e-11f1-8f24-516eff0ae265"],["d810a768-812e-11f1-8f24-516eff0ae265","d83eb1a8-812e-11f1-bbd5-3b1d9300bfca"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -302917,7 +302917,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Fib$\\otimes $Fib$\\otimes $Fib}"],
         "physics": null,
@@ -302982,7 +302982,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{HI} (\\mathbb{Z}_2\\otimes \\mathbb{Z}_2)","\\left[I\\trianglelefteq \\mathbb{Z}_2\\times\\mathbb{Z}_2\\right]_{\\mathbf{1}|1}^{\\text{Id}}"],
         "physics": null,
@@ -303047,7 +303047,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,0}_{24}"],
         "physics": null,
@@ -303112,7 +303112,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,0}_{25}"],
         "physics": null,
@@ -303177,7 +303177,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,0}_{26}"],
         "physics": null,
@@ -303228,7 +303228,7 @@
       "numeric_frobenius_perron_dimension": [69.59079393721903,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.6180339887498947,0.0],[1.8793852415718166,0.0],[2.532088886237956,0.0],[2.8793852415718164,0.0],[3.0409091988181314,0.0],[4.0970058804688785,0.0],[4.658943187568026,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d83ed0d4-812e-11f1-8aca-296eaa022263"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -303242,7 +303242,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Fib$\\otimes $}\\text{PSU}(2)_7"],
         "physics": null,
@@ -303307,7 +303307,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,0}_{28}"],
         "physics": null,
@@ -303372,7 +303372,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,0}_{29}"],
         "physics": null,
@@ -303437,7 +303437,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,0}_{30}"],
         "physics": null,
@@ -303502,7 +303502,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{PSU}(2)_{14}"],
         "physics": null,
@@ -303567,7 +303567,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,0}_{32}"],
         "physics": null,
@@ -303632,7 +303632,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,0}_{33}"],
         "physics": null,
@@ -303697,7 +303697,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,0}_{34}"],
         "physics": null,
@@ -303762,7 +303762,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,0}_{35}"],
         "physics": null,
@@ -303827,7 +303827,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{PSU}(2)_{15}"],
         "physics": null,
@@ -303892,7 +303892,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,0}_{37}"],
         "physics": null,
@@ -303957,7 +303957,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,0}_{38}"],
         "physics": null,
@@ -304022,7 +304022,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["D_4","\\left[\\mathbf{4}"],
         "physics": null,
@@ -304087,7 +304087,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[\\mathbb{Z}_{3} \\trianglelefteq D_{3}\\right]_{ \\mathbf{1}|0}^{ \\text{Id}}"],
         "physics": null,
@@ -304152,7 +304152,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,2}_{3}"],
         "physics": null,
@@ -304217,7 +304217,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[\\mathbb{Z}_{3} \\trianglelefteq D_{3}\\right]_{ \\mathbf{1}|1}^{ \\text{Id}}"],
         "physics": null,
@@ -304282,7 +304282,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Rep}( \\text{Dic}_5)"],
         "physics": null,
@@ -304347,7 +304347,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,2}_{6}"],
         "physics": null,
@@ -304412,7 +304412,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,2}_{7}"],
         "physics": null,
@@ -304477,7 +304477,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,2}_{8}"],
         "physics": null,
@@ -304542,7 +304542,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,2}_{9}"],
         "physics": null,
@@ -304607,7 +304607,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,2}_{10}"],
         "physics": null,
@@ -304672,7 +304672,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,2}_{11}"],
         "physics": null,
@@ -304737,7 +304737,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,2}_{12}"],
         "physics": null,
@@ -304802,7 +304802,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,2}_{13}"],
         "physics": null,
@@ -304867,7 +304867,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,2}_{14}"],
         "physics": null,
@@ -304932,7 +304932,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,2}_{15}"],
         "physics": null,
@@ -304997,7 +304997,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,2}_{16}"],
         "physics": null,
@@ -305062,7 +305062,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,2}_{17}"],
         "physics": null,
@@ -305127,7 +305127,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,2}_{18}"],
         "physics": null,
@@ -305192,7 +305192,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{HI} (\\mathbb{Z}_4)","\\left[\\mathbf{4}"],
         "physics": null,
@@ -305257,7 +305257,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[\\mathbf{4}"],
         "physics": null,
@@ -305322,7 +305322,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,2}_{21}"],
         "physics": null,
@@ -305387,7 +305387,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,2}_{22}"],
         "physics": null,
@@ -305452,7 +305452,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,2}_{23}"],
         "physics": null,
@@ -305517,7 +305517,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,2}_{24}"],
         "physics": null,
@@ -305582,7 +305582,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,2}_{25}"],
         "physics": null,
@@ -305647,7 +305647,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,2}_{26}"],
         "physics": null,
@@ -305712,7 +305712,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,2}_{27}"],
         "physics": null,
@@ -305777,7 +305777,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,2}_{28}"],
         "physics": null,
@@ -305842,7 +305842,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,2}_{29}"],
         "physics": null,
@@ -305907,7 +305907,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,2}_{30}"],
         "physics": null,
@@ -305958,7 +305958,7 @@
       "numeric_frobenius_perron_dimension": [8.0,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d83ee4ac-812e-11f1-a7e5-0deae0edd617"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -305972,7 +305972,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\mathbb{Z}_2\\otimes \\mathbb{Z}_4","\\left[I\\trianglelefteq \\mathbb{Z}_4\\right]_{\\mathbf{1}|0}^{\\text{Id}}"],
         "physics": null,
@@ -306037,7 +306037,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[\\mathbb{Z}_{3} \\trianglelefteq D_{3}\\right]_{ \\mathbf{2}|0}^{ \\text{Id}}"],
         "physics": null,
@@ -306088,7 +306088,7 @@
       "numeric_frobenius_perron_dimension": [12.0,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.7320508075688772,0.0],[1.7320508075688772,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d83ef6ea-812e-11f1-b14a-db63e8dbbc30"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -306102,7 +306102,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\mathbb{Z}_2\\text{$\\otimes $Potts}","\\left[\\mathbb{Z}_{3} \\trianglelefteq \\mathbb{Z}_{6}\\right]_{ \\mathbf{1}|0}^{ \\text{Id}}"],
         "physics": null,
@@ -306153,7 +306153,7 @@
       "numeric_frobenius_perron_dimension": [16.605551275463988,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[2.3027756377319943,0.0],[2.3027756377319943,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d83f1f8a-812e-11f1-9d04-4fe0be33bb1d"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -306167,7 +306167,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left.\\mathbb{Z}_2\\text{$\\otimes $Fib(}\\mathbb{Z}_3\\right)"],
         "physics": null,
@@ -306232,7 +306232,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[\\mathbb{Z}_{3} \\trianglelefteq D_{3}\\right]_{ \\mathbf{2}|1}^{ \\text{Id}}"],
         "physics": null,
@@ -306297,7 +306297,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[\\mathbb{Z}_{3} \\trianglelefteq \\mathbb{Z}_{6}\\right]_{ \\mathbf{1}|1}^{ \\text{Id}}"],
         "physics": null,
@@ -306348,7 +306348,7 @@
       "numeric_frobenius_perron_dimension": [14.472135954999578,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.6180339887498947,0.0],[1.6180339887498947,0.0],[1.6180339887498947,0.0],[1.6180339887498947,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d83ee4ac-812e-11f1-a7e5-0deae0edd617"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -306362,7 +306362,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Fib$\\otimes $}\\mathbb{Z}_4"],
         "physics": null,
@@ -306427,7 +306427,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,4}_{8}"],
         "physics": null,
@@ -306478,7 +306478,7 @@
       "numeric_frobenius_perron_dimension": [21.708203932499366,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.6180339887498947,0.0],[1.6180339887498947,0.0],[1.6180339887498947,0.0],[1.7320508075688772,0.0],[2.802517076888147,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d83ef6ea-812e-11f1-b14a-db63e8dbbc30"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -306492,7 +306492,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Fib$\\otimes $Potts}"],
         "physics": null,
@@ -306543,7 +306543,7 @@
       "numeric_frobenius_perron_dimension": [30.03972445827894,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.6180339887498947,0.0],[1.6180339887498947,0.0],[1.6180339887498947,0.0],[2.3027756377319943,0.0],[3.725969250315582,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d83f1f8a-812e-11f1-9d04-4fe0be33bb1d"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -306557,7 +306557,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Fib$\\otimes $Fib(} \\mathbb{Z}_3)"],
         "physics": null,
@@ -306622,7 +306622,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,4}_{11}"],
         "physics": null,
@@ -306687,7 +306687,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,4}_{12}"],
         "physics": null,
@@ -306738,7 +306738,7 @@
       "numeric_frobenius_perron_dimension": [27.31370849898476,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[2.414213562373095,0.0],[2.414213562373095,0.0],[2.414213562373095,0.0],[2.414213562373095,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810876c-812e-11f1-9999-b9a2d35bb71a","d83f3c20-812e-11f1-98b9-1120034a3b16"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -306752,7 +306752,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left.\\mathbb{Z}_2\\text{$\\otimes $(Peudo }\\text{PSU}(2)_6\\right)"],
         "physics": null,
@@ -306817,7 +306817,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,4}_{14}"],
         "physics": null,
@@ -306868,7 +306868,7 @@
       "numeric_frobenius_perron_dimension": [49.41096285406687,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.6180339887498947,0.0],[1.6180339887498947,0.0],[2.414213562373095,0.0],[2.414213562373095,0.0],[3.906279600020632,0.0],[3.906279600020632,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d810a768-812e-11f1-8f24-516eff0ae265","d83f3c20-812e-11f1-98b9-1120034a3b16"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -306882,7 +306882,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Fib$\\otimes $(Peudo } \\text{PSU}(2)_6)"],
         "physics": null,
@@ -306947,7 +306947,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[I\\trianglelefteq \\mathbb{Z}_4\\right]_{\\mathbf{1}|1}^{\\text{Id}}"],
         "physics": null,
@@ -307012,7 +307012,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[I\\trianglelefteq \\mathbb{Z}_2\\times\\mathbb{Z}_2\\right]_{\\mathbf{2}|1}^{\\text{Id}}"],
         "physics": null,
@@ -307077,7 +307077,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,4}_{18}"],
         "physics": null,
@@ -307142,7 +307142,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Q}","\\left[\\mathbf{4}"],
         "physics": null,
@@ -307207,7 +307207,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\mathbb{Z}_8","\\left[I\\trianglelefteq \\mathbb{Z}_4\\right]_{\\mathbf{3}|0}^{\\text{Id}}"],
         "physics": null,
@@ -307272,7 +307272,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{TY}( \\mathbb{Z}_7)","\\left[\\mathbb{Z}_{7} \\trianglelefteq \\mathbb{Z}_{7}\\right]_{ \\mathbf{1}|0}^{ \\text{Id}}"],
         "physics": null,
@@ -307337,7 +307337,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[\\mathbb{Z}_{7} \\trianglelefteq \\mathbb{Z}_{7}\\right]_{ \\mathbf{1}|1}^{ \\text{Id}}"],
         "physics": null,
@@ -307402,7 +307402,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[\\mathbb{Z}_{3} \\trianglelefteq \\mathbb{Z}_{6}\\right]_{ \\mathbf{2}|0}^{ \\text{Id}}"],
         "physics": null,
@@ -307467,7 +307467,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[\\mathbb{Z}_{3} \\trianglelefteq \\mathbb{Z}_{6}\\right]_{ \\mathbf{2}|1}^{ \\text{Id}}"],
         "physics": null,
@@ -307532,7 +307532,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,6}_{7}"],
         "physics": null,
@@ -307597,7 +307597,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{8,1,6}_{8}"],
         "physics": null,
@@ -307662,7 +307662,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[\\mathbf{4}"],
         "physics": null,
@@ -307727,7 +307727,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[I\\trianglelefteq \\mathbb{Z}_4\\right]_{\\mathbf{3}|1}^{\\text{Id}}"],
         "physics": null,
@@ -307808,7 +307808,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{TY}( \\mathbb{Z}_2\\otimes \\mathbb{Z}_2\\otimes \\mathbb{Z}_2)","\\left[\\mathbb{Z}_{2}\\otimes\\mathbb{Z}_{2}\\otimes\\mathbb{Z}_{2} \\trianglelefteq \\mathbb{Z}_{2}\\otimes\\mathbb{Z}_{2}\\otimes\\mathbb{Z}_{2}\\right]_{ \\mathbf{1}|0}^{ \\text{Id}}"],
         "physics": null,
@@ -307889,7 +307889,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[\\mathbb{Z}_{2}\\otimes\\mathbb{Z}_{2}\\otimes\\mathbb{Z}_{2} \\trianglelefteq \\mathbb{Z}_{2}\\otimes\\mathbb{Z}_{2}\\otimes\\mathbb{Z}_{2}\\right]_{ \\mathbf{1}|1}^{ \\text{Id}}"],
         "physics": null,
@@ -307952,7 +307952,7 @@
       "numeric_frobenius_perron_dimension": [16.0,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.414213562373095,0.0],[1.414213562373095,0.0],[1.414213562373095,0.0],[1.414213562373095,0.0],[2.0,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d8246168-812e-11f1-b9f6-cb49027c023c","d8246168-812e-11f1-b9f6-cb49027c023c"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -307966,7 +307966,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Ising$\\otimes $Ising}"],
         "physics": null,
@@ -308017,7 +308017,7 @@
       "numeric_frobenius_perron_dimension": [24.0,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.414213562373095,0.0],[1.414213562373095,0.0],[2.0,0.0],[2.0,0.0],[2.82842712474619,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d824dcce-812e-11f1-8979-8918dc37f65b","d8246168-812e-11f1-b9f6-cb49027c023c"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -308031,7 +308031,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Ising$\\otimes $Rep}( D_3)"],
         "physics": null,
@@ -308096,7 +308096,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Adj}( \\text{SO}(24)_2)"],
         "physics": null,
@@ -308147,7 +308147,7 @@
       "numeric_frobenius_perron_dimension": [36.0,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[2.0,0.0],[2.0,0.0],[2.0,0.0],[2.0,0.0],[4.0,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d824dcce-812e-11f1-8979-8918dc37f65b","d824dcce-812e-11f1-8979-8918dc37f65b"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -308161,7 +308161,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Rep}( D_3\\text{)$\\otimes $Rep}(D_3)"],
         "physics": null,
@@ -308226,7 +308226,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{7}"],
         "physics": null,
@@ -308291,7 +308291,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{8}"],
         "physics": null,
@@ -308356,7 +308356,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{9}"],
         "physics": null,
@@ -308421,7 +308421,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{10}"],
         "physics": null,
@@ -308486,7 +308486,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{11}"],
         "physics": null,
@@ -308551,7 +308551,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Adj}( \\text{SO}(15)_2)"],
         "physics": null,
@@ -308616,7 +308616,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{13}"],
         "physics": null,
@@ -308667,7 +308667,7 @@
       "numeric_frobenius_perron_dimension": [37.183587772959086,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.414213562373095,0.0],[1.801937735804838,0.0],[1.801937735804838,0.0],[2.2469796037174667,0.0],[2.2469796037174667,0.0],[2.548324784527069,0.0],[3.1777090299529642,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d8246168-812e-11f1-b9f6-cb49027c023c","d824e23c-812e-11f1-920a-f9418ba41d6d"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -308681,7 +308681,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Ising$\\otimes $}\\text{PSU}(2)_5"],
         "physics": null,
@@ -308746,7 +308746,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{15}"],
         "physics": null,
@@ -308811,7 +308811,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{16}"],
         "physics": null,
@@ -308876,7 +308876,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{17}"],
         "physics": null,
@@ -308941,7 +308941,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{18}"],
         "physics": null,
@@ -309006,7 +309006,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{SO}(11)_2"],
         "physics": null,
@@ -309057,7 +309057,7 @@
       "numeric_frobenius_perron_dimension": [55.77538165943863,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.801937735804838,0.0],[1.801937735804838,0.0],[2.0,0.0],[2.2469796037174667,0.0],[2.2469796037174667,0.0],[3.603875471609676,0.0],[4.4939592074349335,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d824dcce-812e-11f1-8979-8918dc37f65b","d824e23c-812e-11f1-920a-f9418ba41d6d"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -309071,7 +309071,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Rep}(D_3\\text{)$\\otimes $}\\text{PSU}(2)_5"],
         "physics": null,
@@ -309136,7 +309136,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{21}"],
         "physics": null,
@@ -309201,7 +309201,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["S_3\\wr S_2"],
         "physics": null,
@@ -309266,7 +309266,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{23}"],
         "physics": null,
@@ -309331,7 +309331,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{24}"],
         "physics": null,
@@ -309396,7 +309396,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{25}"],
         "physics": null,
@@ -309461,7 +309461,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{26}"],
         "physics": null,
@@ -309526,7 +309526,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{SU}(2)_8"],
         "physics": null,
@@ -309591,7 +309591,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{28}"],
         "physics": null,
@@ -309656,7 +309656,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{29}"],
         "physics": null,
@@ -309721,7 +309721,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{30}"],
         "physics": null,
@@ -309786,7 +309786,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{31}"],
         "physics": null,
@@ -309851,7 +309851,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{32}"],
         "physics": null,
@@ -309916,7 +309916,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{33}"],
         "physics": null,
@@ -309967,7 +309967,7 @@
       "numeric_frobenius_perron_dimension": [86.41369997933454,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.801937735804838,0.0],[1.801937735804838,0.0],[2.2469796037174667,0.0],[2.2469796037174667,0.0],[3.2469796037174667,0.0],[4.048917339522305,0.0],[4.048917339522305,0.0],[5.048917339522305,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d824e23c-812e-11f1-920a-f9418ba41d6d","d824e23c-812e-11f1-920a-f9418ba41d6d"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -309981,7 +309981,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{PSU}(2)_5\\otimes \\text{PSU}(2)_5"],
         "physics": null,
@@ -310046,7 +310046,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{35}"],
         "physics": null,
@@ -310111,7 +310111,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{36}"],
         "physics": null,
@@ -310176,7 +310176,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{37}"],
         "physics": null,
@@ -310241,7 +310241,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{38}"],
         "physics": null,
@@ -310306,7 +310306,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{39}"],
         "physics": null,
@@ -310371,7 +310371,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{40}"],
         "physics": null,
@@ -310436,7 +310436,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{PSU}(2)_{16}"],
         "physics": null,
@@ -310501,7 +310501,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{42}"],
         "physics": null,
@@ -310566,7 +310566,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{43}"],
         "physics": null,
@@ -310631,7 +310631,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{PSU}(2)_{17}"],
         "physics": null,
@@ -310696,7 +310696,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{45}"],
         "physics": null,
@@ -310761,7 +310761,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,0}_{46}"],
         "physics": null,
@@ -310826,7 +310826,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{TY}( D_4)","\\left[D_{4} \\trianglelefteq D_{4}\\right]_{ \\mathbf{1}|0}^{ \\text{Id}}"],
         "physics": null,
@@ -310891,7 +310891,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[D_{4} \\trianglelefteq D_{4}\\right]_{ \\mathbf{1}|1}^{ \\text{Id}}"],
         "physics": null,
@@ -310956,7 +310956,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{3}"],
         "physics": null,
@@ -311021,7 +311021,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{4}"],
         "physics": null,
@@ -311086,7 +311086,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{5}"],
         "physics": null,
@@ -311151,7 +311151,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{6}"],
         "physics": null,
@@ -311216,7 +311216,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{7}"],
         "physics": null,
@@ -311281,7 +311281,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Rep}( \\text{Dic}_3\\rtimes \\mathbb{Z}_2)"],
         "physics": null,
@@ -311346,7 +311346,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{9}"],
         "physics": null,
@@ -311411,7 +311411,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{10}"],
         "physics": null,
@@ -311476,7 +311476,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{11}"],
         "physics": null,
@@ -311541,7 +311541,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{12}"],
         "physics": null,
@@ -311606,7 +311606,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{13}"],
         "physics": null,
@@ -311671,7 +311671,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{14}"],
         "physics": null,
@@ -311736,7 +311736,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{15}"],
         "physics": null,
@@ -311801,7 +311801,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{16}"],
         "physics": null,
@@ -311866,7 +311866,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{17}"],
         "physics": null,
@@ -311931,7 +311931,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{18}"],
         "physics": null,
@@ -311996,7 +311996,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{19}"],
         "physics": null,
@@ -312061,7 +312061,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{20}"],
         "physics": null,
@@ -312126,7 +312126,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{21}"],
         "physics": null,
@@ -312191,7 +312191,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{22}"],
         "physics": null,
@@ -312256,7 +312256,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{23}"],
         "physics": null,
@@ -312321,7 +312321,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{24}"],
         "physics": null,
@@ -312386,7 +312386,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{25}"],
         "physics": null,
@@ -312451,7 +312451,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{26}"],
         "physics": null,
@@ -312516,7 +312516,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{27}"],
         "physics": null,
@@ -312581,7 +312581,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{28}"],
         "physics": null,
@@ -312646,7 +312646,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{29}"],
         "physics": null,
@@ -312711,7 +312711,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{30}"],
         "physics": null,
@@ -312776,7 +312776,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{31}"],
         "physics": null,
@@ -312841,7 +312841,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{32}"],
         "physics": null,
@@ -312906,7 +312906,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{33}"],
         "physics": null,
@@ -312971,7 +312971,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{34}"],
         "physics": null,
@@ -313036,7 +313036,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{35}"],
         "physics": null,
@@ -313101,7 +313101,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{36}"],
         "physics": null,
@@ -313166,7 +313166,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{37}"],
         "physics": null,
@@ -313231,7 +313231,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{38}"],
         "physics": null,
@@ -313296,7 +313296,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{39}"],
         "physics": null,
@@ -313361,7 +313361,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{40}"],
         "physics": null,
@@ -313426,7 +313426,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{41}"],
         "physics": null,
@@ -313491,7 +313491,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{42}"],
         "physics": null,
@@ -313556,7 +313556,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{43}"],
         "physics": null,
@@ -313621,7 +313621,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{44}"],
         "physics": null,
@@ -313686,7 +313686,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,2}_{45}"],
         "physics": null,
@@ -313751,7 +313751,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{TY}( \\mathbb{Z}_2\\otimes \\mathbb{Z}_4)","\\left[\\mathbb{Z}_{2}\\otimes\\mathbb{Z}_{4} \\trianglelefteq \\mathbb{Z}_{2}\\otimes\\mathbb{Z}_{4}\\right]_{ \\mathbf{1}|0}^{ \\text{Id}}"],
         "physics": null,
@@ -313816,7 +313816,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[\\mathbb{Z}_{2}\\otimes\\mathbb{Z}_{4} \\trianglelefteq \\mathbb{Z}_{2}\\otimes\\mathbb{Z}_{4}\\right]_{ \\mathbf{1}|1}^{ \\text{Id}}"],
         "physics": null,
@@ -313881,7 +313881,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[\\mathbb{Z}_2\\trianglelefteq \\mathbb{Z}_6\\right]_{\\mathbf{1}|1}^{(\\mathbf{2}\\ \\mathbf{3})}"],
         "physics": null,
@@ -313946,7 +313946,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{4}"],
         "physics": null,
@@ -314011,7 +314011,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{5}"],
         "physics": null,
@@ -314076,7 +314076,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{6}"],
         "physics": null,
@@ -314141,7 +314141,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{7}"],
         "physics": null,
@@ -314206,7 +314206,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{8}"],
         "physics": null,
@@ -314271,7 +314271,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{9}"],
         "physics": null,
@@ -314336,7 +314336,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{10}"],
         "physics": null,
@@ -314401,7 +314401,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[\\mathbb{Z}_2\\trianglelefteq \\mathbb{Z}_6\\right]_{\\mathbf{1}|1}^{(\\mathbf{2}\\ \\mathbf{3})}"],
         "physics": null,
@@ -314466,7 +314466,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{12}"],
         "physics": null,
@@ -314531,7 +314531,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{13}"],
         "physics": null,
@@ -314596,7 +314596,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{14}"],
         "physics": null,
@@ -314661,7 +314661,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{15}"],
         "physics": null,
@@ -314726,7 +314726,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{16}"],
         "physics": null,
@@ -314791,7 +314791,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{17}"],
         "physics": null,
@@ -314856,7 +314856,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{18}"],
         "physics": null,
@@ -314921,7 +314921,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{19}"],
         "physics": null,
@@ -314986,7 +314986,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{20}"],
         "physics": null,
@@ -315051,7 +315051,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{21}"],
         "physics": null,
@@ -315116,7 +315116,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{22}"],
         "physics": null,
@@ -315181,7 +315181,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{23}"],
         "physics": null,
@@ -315246,7 +315246,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{24}"],
         "physics": null,
@@ -315311,7 +315311,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{25}"],
         "physics": null,
@@ -315376,7 +315376,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{26}"],
         "physics": null,
@@ -315441,7 +315441,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{27}"],
         "physics": null,
@@ -315506,7 +315506,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{28}"],
         "physics": null,
@@ -315571,7 +315571,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{29}"],
         "physics": null,
@@ -315636,7 +315636,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{30}"],
         "physics": null,
@@ -315701,7 +315701,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{31}"],
         "physics": null,
@@ -315766,7 +315766,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{32}"],
         "physics": null,
@@ -315831,7 +315831,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,4}_{33}"],
         "physics": null,
@@ -315896,7 +315896,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{TY(Q)}","\\left[Q \\trianglelefteq Q\\right]_{ \\mathbf{1}|0}^{ \\text{Id}}"],
         "physics": null,
@@ -315961,7 +315961,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{TY}( \\mathbb{Z}_8)","\\left[\\mathbb{Z}_{8} \\trianglelefteq \\mathbb{Z}_{8}\\right]_{ \\mathbf{1}|0}^{ \\text{Id}}"],
         "physics": null,
@@ -316026,7 +316026,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[Q \\trianglelefteq Q\\right]_{ \\mathbf{1}|1}^{ \\text{Id}}"],
         "physics": null,
@@ -316091,7 +316091,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[\\mathbb{Z}_{8} \\trianglelefteq \\mathbb{Z}_{8}\\right]_{ \\mathbf{1}|1}^{ \\text{Id}}"],
         "physics": null,
@@ -316142,7 +316142,7 @@
       "numeric_frobenius_perron_dimension": [12.0,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.414213562373095,0.0],[1.414213562373095,0.0],[1.414213562373095,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d824ec0a-812e-11f1-8aff-8740299055ca","d8246168-812e-11f1-b9f6-cb49027c023c"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -316156,7 +316156,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Ising$\\otimes $}\\mathbb{Z}_3","\\left[\\mathbb{Z}_{2} \\trianglelefteq \\mathbb{Z}_{6}\\right]_{ \\mathbf{1}|0}^{ \\text{Id}}"],
         "physics": null,
@@ -316207,7 +316207,7 @@
       "numeric_frobenius_perron_dimension": [18.0,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[2.0,0.0],[2.0,0.0],[2.0,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d824ec0a-812e-11f1-8aff-8740299055ca","d824dcce-812e-11f1-8979-8918dc37f65b"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -316221,7 +316221,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{Rep}(D_3\\text{)$\\otimes $}\\mathbb{Z}_3"],
         "physics": null,
@@ -316286,7 +316286,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,6}_{7}"],
         "physics": null,
@@ -316351,7 +316351,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,6}_{8}"],
         "physics": null,
@@ -316416,7 +316416,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\left[\\mathbb{Z}_{2} \\trianglelefteq \\mathbb{Z}_{6}\\right]_{ \\mathbf{1}|1}^{ \\text{Id}}"],
         "physics": null,
@@ -316467,7 +316467,7 @@
       "numeric_frobenius_perron_dimension": [27.887690829719315,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.801937735804838,0.0],[1.801937735804838,0.0],[1.801937735804838,0.0],[2.2469796037174667,0.0],[2.2469796037174667,0.0],[2.2469796037174667,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d824ec0a-812e-11f1-8aff-8740299055ca","d824e23c-812e-11f1-920a-f9418ba41d6d"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -316481,7 +316481,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{PSU}(2)_5\\otimes \\mathbb{Z}_3"],
         "physics": null,
@@ -316546,7 +316546,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,6}_{11}"],
         "physics": null,
@@ -316611,7 +316611,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,6}_{12}"],
         "physics": null,
@@ -316676,7 +316676,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,6}_{13}"],
         "physics": null,
@@ -316741,7 +316741,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,6}_{14}"],
         "physics": null,
@@ -316806,7 +316806,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,6}_{15}"],
         "physics": null,
@@ -316871,7 +316871,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\text{FR}^{9,1,6}_{16}"],
         "physics": null,
@@ -316936,7 +316936,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\mathbb{Z}_9"],
         "physics": null,
@@ -316987,7 +316987,7 @@
       "numeric_frobenius_perron_dimension": [9.0,0.0],
       "numeric_frobenius_perron_dimensions": [[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0],[1.0,0.0]],
       "realizations": {
-        "tensor_product": [["ring","ring"]]
+        "tensor_product": [["d824ec0a-812e-11f1-8aff-8740299055ca","d824ec0a-812e-11f1-8aff-8740299055ca"]]
       },
       "references": {
         "all": ["https://doi.org/10.1063/5.0148848"]
@@ -317001,7 +317001,7 @@
           "version": "0.2.5"
         }
       },
-      "texnames": {
+      "tex_names": {
         "group_like": null,
         "miscellaneous": ["\\mathbb{Z}_3\\otimes \\mathbb{Z}_3"],
         "physics": null,
@@ -317011,7 +317011,7 @@
       "uuid": "d8e0648a-812e-11f1-b9f5-a5767b315712"
     }
   },
-  "info": "Dataset of fusion rings containing the fields \"data\", \"info\", and \"order\" with the following content.\n* data: contains JSON dictionary of fusion rings where the keys are UUID1 identifiers.\n* order: contains a list of identifiers of the fusion rings in the original order of the list of rings that was exported.\n* info: contains all info on how to interpret the data stored in this JSON file.\n\nEach fusion ring form the \"data\" is given by JSON dictionary.\nThe following conventions are used in explaining the values of the dictionary:\n* A qqb_id is a string that uniquely describes an algebraic number. It is formatted as a list of n integers a0, ..., an, separated by underscores, followed by a double underscore, followed by an integer i: \"a0_a1_..._an__i\". Here a0 to an are the coefficients of a polynomial a0 + a1*x + ... + an*x^n and i denotes the i'th root of that polynomial. The indexing of roots of the polynomial takes the real roots first, in increasing order. Then come complex conjugate pairs of roots, sorted first by increasing real part and second by increasing complex part.\n* A ctf, or complex tuple of floats, is a representation of a complex floating point number a + i b by vector [ a, b ] where a and b are real floating point numbers.\n* If A is a JSON array then A[i] is its i'th element.\n\n* The parent ring is the current ring being represented by the JSON dictionary. When talking about subrings and gradings, the parent ring represents the ring of which we're interested in its subrings and gradings.\n* Every fusion ring is uniquely identified by a uuid. By ring[ring_uuid] we mean the fusion ring with uuid equal to ring_uuid\n* All stored rings have a fixed order of their elements. Therefore every element of a fusion ring can be represented by a positive integer from 1 to r = rank(ring) we will often use elements and indices representing those elements interchangeably. By the i'th element of the ring[uuid] we mean the i'th element for the stored ring unless stated otherwise.\n* A value of null for any field means the data is missing. In particular, it does not imply that the data doesn't exist.\n* For all technical definitions we refer to doi: 10.1090/surv/205.\n\nThe interpretation of the values of the fields of a fusion ring is the following.\n* mult_tab: triply nested array of integers representing the structure constants of the fusion ring: N_{a,b}^c = mult_tab[a][b][c]\n* uuid: UUID1 string that uniquely represents the fusion ring. It is independent of any property of the fusion ring and will therefore not change if a property is found to be incorrect, e.g., due to an incorrect property.\n* anyonwiki_code: a list of four integers r, m, nnsd, i, that identify a unique fusion ring. Here\n  * r is the rank of the ring\n  * m is the multiplicity of the ring\n  * nnsd is the number of non-self dual elements of the fusion ring\n  * is an arbitrary integer that distinguished between rings with the same values of r, m, and nnsd.\n* names: a JSON dictionary mapping naming conventions to lists of strings of names given using that convention. The conventions at the moment are\n  * \"quantum_group_like\": names associated to quantum groups at level k, such as \"psu(2)_5\", \"so(7)_2\"\n  * \"group_like\": names associated to the theory of finite groups, such as \"Z_2\", \"Rep(D_6)\". Names associated to near-group or group theoretical fusion rings do not belong here but in miscelaneous.\n  * \"physics\": names associated to applications in physics, such as \"Fibonacci\", \"Ising\", \"Potts\".\n  * \"miscellaneous\": names not belonging to another of the above categories.\n* texnames: a JSON dictionary mapping naming conventions to lists of strings of names typeset in LaTeX given using that convention. The conventions are the same as for the names field.\n* labels: list of strings used to label the elements of the fusion ring. This is purely cosmetic and has no influence on any other properties. The default is a list of bold digits from 1 to the rank of the ring.\n* characters: vector of vectors [ v_1, ..., v_r ] where each v_i is a vector of r qqb_ids representing the image of the elements of the fusion ring under the i'th character.\n* non_trivial_sub_fusion_rings: list of vectors [ els, uuid ] where els are the elements of the parent ring that form a subring isomorphic to ring[uuid].\n* frobenius_perron_dimension: qqb_id of the Frobenius-Perron dimension of the fusion ring.\n* frobenius_perron_dimensions: vector of qqb_ids of the Frobenius-Perron dimensions of the elements of the fusion ring.\n* formal_codegrees: vector of qqb_ids that are the eigenvalues of the matrix \\sum_{i=1}^{rank(fr)}N_{i^*} N_{i} where N_{i} is the left regular representation of left-multiplication by the i'th basis element and i^* is the dual element of i.\n* numeric_formal_codegrees: vector of ctfs that are the eigenvalues of the matrix \\sum_{i=1}^{rank(fr)}N_{i^*} N_{i} where N_{i} is the left regular representation of left-multiplication by the i'th basis element and i^* is the dual element of i.\n* numeric_characters: vector of vectors [ v_1, ..., v_r ] where each v_i is a vector of r ctfs representing the image of the elements of the fusion ring under the i'th character.\n* numeric_frobenius_perron_dimension: ctf of the Frobenius-Perron dimension of the fusion ring.\n* numeric_frobenius_perron_dimensions: vector of ctfs of the Frobenius-Perron dimensions of the elements of the fusion ring.\n* has_categories_with_props: a JSON dictionary whose keys are\n  * \"Fusion\"\n  * \"Pivotal\"\n  * \"Unitary\"\n  * \"Spherical\"\n  * \"Braided\"\n  * \"Ribbon\"\n  * \"Modular\"\n  and whose fields are lists [ bool, method, reason ] where\n  * bool: equals true if the ring is categorifiable to a category with the respective property, false if it is known it doesn't.\n  * method: can be \"Theory\" if the information of bool is based on a theoretical result,  \"Computer:symbolic\" if it is based on a computer calculation using exact symbolic methods, or \"Computer:numeric\" if it is based on a computer calculation using inexact numeric methods.\n  * reason: gives a more in-depth reason for why the value of bool is what it is. This could, e.g., be a reference to a theorem in a paper or a version of a software package used.\n* categorifications: a list of uuids of known fusion categories that categorify the fusion ring. It only contains uuids of categories of which the data is stored.\n* references: JSON dictionary mapping names of fields to a list of references to the paper that played a significant role in obtaining the data in the way it is represented here. Special field names are the same as for software. Only papers that have lead to the data as currently represented are included and thus no papers that represent theory that was not directly used, or ,e.g. , data in another format that was not used to obtain current data.\n* software: JSON dictionary mapping names of fields to a dictionary describing to software that played a significant role in obtain the data in the way it is represented here. Special field names are\n  * \"all\": when all fields of the ring point to the same software\n  * \"all_other_data\": when all other data, besides the data having specific references, points to the same software.\n  the interpretation of the field names of the dictionary are the following\n    * name: string that represents the name of the software\n    * swhid: string that represents the swhid of the specific revision of software, if backed up by the software heritage foundation. This should contain the substring \":rev:\". If not available this field is null.\n    * doi: string that represents the doi of the software version if available, null otherwise.\n    * version: string that represents the version of the software\n  either the doi or the swhid fields must be included to be considered a valid reference\n* all_gradings: vector of vectors [ els, uuid ] where ring[uuid] the group ring that grades this fusion ring, and els are elements of ring[uuid] that grade the elements of the parent ring.\n* upper_central_series: list of vectors v_i =  [ els_i, uuid_i ] where ring[uuid_i] is the ring isomorphic to the adjoint fusion ring of the ring[uuid_{i-1}]. els_i are the elements of ring[uuid_{i-1}] that form its adoint fusion ring. v1 is by definition the couple of all elements of the parent ring and the parent ring itself. Each adjoint ring has its elements in the same order as the original ring and thus not necessarily in the order of the stored ring.\n* realizations: JSON dictionary mapping strings representing realizations of fusion rings in terms of other ones to data that allows to reconstruct the realization. At the moment it contains the following fields\n  * \"tensor_product\": vector of vectors of uuids representing rings whose (based) tensor product is isomorphic to this ring.\n* automorphisms: JSON dictionary with the following fields:\n  * \"group\": string containing a LaTeX name of the automorphism group of the fusion ring.\n  * \"cycles\": minimal list of vectors of integers representing cycles that generate the automorhism group of the fusion ring with the current order of elements.\n* is_group_ring: true if the ring is a group ring, false if not.\n* is_nilpotent: true if the ring is nilpotent, false if not.\n* is_simple: true if the ring is simple, false if not.\n* is_integral: true if the ring is integral, false if not.\n* is_weakly_integral: true if the ring is nilpotent, false if not.\n* is_non_trivially_graded: true if the ring has a non-trivial grading, false if not.\n* is_commutative: true if the ring is commutative, false if not.\n ",
+  "info": "Dataset of fusion rings containing the fields \"data\", \"info\", and \"order\" with the following content.\n* data: contains JSON dictionary of fusion rings where the keys are UUID1 identifiers.\n* order: contains a list of identifiers of the fusion rings in the original order of the list of rings that was exported.\n* info: contains all info on how to interpret the data stored in this JSON file.\n\nEach fusion ring form the \"data\" is given by JSON dictionary.\nThe following conventions are used in explaining the values of the dictionary:\n* A qqb_id is a string that uniquely describes an algebraic number. It is formatted as a list of n integers a0, ..., an, separated by underscores, followed by a double underscore, followed by an integer i: \"a0_a1_..._an__i\". Here a0 to an are the coefficients of a polynomial a0 + a1*x + ... + an*x^n and i denotes the i'th root of that polynomial. The indexing of roots of the polynomial takes the real roots first, in increasing order. Then come complex conjugate pairs of roots, sorted first by increasing real part and second by increasing complex part.\n* A ctf, or complex tuple of floats, is a representation of a complex floating point number a + i b by vector [ a, b ] where a and b are real floating point numbers.\n* If A is a JSON array then A[i] is its i'th element.\n\n* The parent ring is the current ring being represented by the JSON dictionary. When talking about subrings and gradings, the parent ring represents the ring of which we're interested in its subrings and gradings.\n* Every fusion ring is uniquely identified by a uuid. By ring[ring_uuid] we mean the fusion ring with uuid equal to ring_uuid\n* All stored rings have a fixed order of their elements. Therefore every element of a fusion ring can be represented by a positive integer from 1 to r = rank(ring) we will often use elements and indices representing those elements interchangeably. By the i'th element of the ring[uuid] we mean the i'th element for the stored ring unless stated otherwise.\n* A value of null for any field means the data is missing. In particular, it does not imply that the data doesn't exist.\n* For all technical definitions we refer to doi: 10.1090/surv/205.\n\nThe interpretation of the values of the fields of a fusion ring is the following.\n* mult_tab: triply nested array of integers representing the structure constants of the fusion ring: N_{a,b}^c = mult_tab[a][b][c]\n* uuid: UUID1 string that uniquely represents the fusion ring. It is independent of any property of the fusion ring and will therefore not change if a property is found to be incorrect, e.g., due to an incorrect property.\n* anyonwiki_code: a list of four integers r, m, nnsd, i, that identify a unique fusion ring. Here\n  * r is the rank of the ring\n  * m is the multiplicity of the ring\n  * nnsd is the number of non-self dual elements of the fusion ring\n  * is an arbitrary integer that distinguished between rings with the same values of r, m, and nnsd.\n* names: a JSON dictionary mapping naming conventions to lists of strings of names given using that convention. The conventions at the moment are\n  * \"quantum_group_like\": names associated to quantum groups at level k, such as \"psu(2)_5\", \"so(7)_2\"\n  * \"group_like\": names associated to the theory of finite groups, such as \"Z_2\", \"Rep(D_6)\". Names associated to near-group or group theoretical fusion rings do not belong here but in miscelaneous.\n  * \"physics\": names associated to applications in physics, such as \"Fibonacci\", \"Ising\", \"Potts\".\n  * \"miscellaneous\": names not belonging to another of the above categories.\n* tex_names: a JSON dictionary mapping naming conventions to lists of strings of names typeset in LaTeX given using that convention. The conventions are the same as for the names field.\n* labels: list of strings used to label the elements of the fusion ring. This is purely cosmetic and has no influence on any other properties. The default is a list of bold digits from 1 to the rank of the ring.\n* characters: vector of vectors [ v_1, ..., v_r ] where each v_i is a vector of r qqb_ids representing the image of the elements of the fusion ring under the i'th character.\n* non_trivial_sub_fusion_rings: list of vectors [ els, uuid ] where els are the elements of the parent ring that form a subring isomorphic to ring[uuid].\n* frobenius_perron_dimension: qqb_id of the Frobenius-Perron dimension of the fusion ring.\n* frobenius_perron_dimensions: vector of qqb_ids of the Frobenius-Perron dimensions of the elements of the fusion ring.\n* formal_codegrees: vector of qqb_ids that are the eigenvalues of the matrix \\sum_{i=1}^{rank(fr)}N_{i^*} N_{i} where N_{i} is the left regular representation of left-multiplication by the i'th basis element and i^* is the dual element of i.\n* numeric_formal_codegrees: vector of ctfs that are the eigenvalues of the matrix \\sum_{i=1}^{rank(fr)}N_{i^*} N_{i} where N_{i} is the left regular representation of left-multiplication by the i'th basis element and i^* is the dual element of i.\n* numeric_characters: vector of vectors [ v_1, ..., v_r ] where each v_i is a vector of r ctfs representing the image of the elements of the fusion ring under the i'th character.\n* numeric_frobenius_perron_dimension: ctf of the Frobenius-Perron dimension of the fusion ring.\n* numeric_frobenius_perron_dimensions: vector of ctfs of the Frobenius-Perron dimensions of the elements of the fusion ring.\n* has_categories_with_props: a JSON dictionary whose keys are\n  * \"Fusion\"\n  * \"Pivotal\"\n  * \"Unitary\"\n  * \"Spherical\"\n  * \"Braided\"\n  * \"Ribbon\"\n  * \"Modular\"\n  and whose fields are lists [ bool, method, reason ] where\n  * bool: equals true if the ring is categorifiable to a category with the respective property, false if it is known it doesn't.\n  * method: can be \"Theory\" if the information of bool is based on a theoretical result,  \"Computer:symbolic\" if it is based on a computer calculation using exact symbolic methods, or \"Computer:numeric\" if it is based on a computer calculation using inexact numeric methods.\n  * reason: gives a more in-depth reason for why the value of bool is what it is. This could, e.g., be a reference to a theorem in a paper or a version of a software package used.\n* categorifications: a list of uuids of known fusion categories that categorify the fusion ring. It only contains uuids of categories of which the data is stored.\n* references: JSON dictionary mapping names of fields to a list of references to the paper that played a significant role in obtaining the data in the way it is represented here. Special field names are the same as for software. Only papers that have lead to the data as currently represented are included and thus no papers that represent theory that was not directly used, or ,e.g. , data in another format that was not used to obtain current data.\n* software: JSON dictionary mapping names of fields to a dictionary describing to software that played a significant role in obtain the data in the way it is represented here. Special field names are\n  * \"all\": when all fields of the ring point to the same software\n  * \"all_other_data\": when all other data, besides the data having specific references, points to the same software.\n  the interpretation of the field names of the dictionary are the following\n    * name: string that represents the name of the software\n    * swhid: string that represents the swhid of the specific revision of software, if backed up by the software heritage foundation. This should contain the substring \":rev:\". If not available this field is null.\n    * doi: string that represents the doi of the software version if available, null otherwise.\n    * version: string that represents the version of the software\n  either the doi or the swhid fields must be included to be considered a valid reference\n* all_gradings: vector of vectors [ els, uuid ] where ring[uuid] the group ring that grades this fusion ring, and els are elements of ring[uuid] that grade the elements of the parent ring.\n* upper_central_series: list of vectors v_i =  [ els_i, uuid_i ] where ring[uuid_i] is the ring isomorphic to the adjoint fusion ring of the ring[uuid_{i-1}]. els_i are the elements of ring[uuid_{i-1}] that form its adoint fusion ring. v1 is by definition the couple of all elements of the parent ring and the parent ring itself. Each adjoint ring has its elements in the same order as the original ring and thus not necessarily in the order of the stored ring.\n* realizations: JSON dictionary mapping strings representing realizations of fusion rings in terms of other ones to data that allows to reconstruct the realization. At the moment it contains the following fields\n  * \"tensor_product\": vector of vectors of uuids representing rings whose (based) tensor product is isomorphic to this ring.\n* automorphisms: JSON dictionary with the following fields:\n  * \"group\": string containing a LaTeX name of the automorphism group of the fusion ring.\n  * \"cycles\": minimal list of vectors of integers representing cycles that generate the automorhism group of the fusion ring with the current order of elements.\n* is_group_ring: true if the ring is a group ring, false if not.\n* is_nilpotent: true if the ring is nilpotent, false if not.\n* is_simple: true if the ring is simple, false if not.\n* is_integral: true if the ring is integral, false if not.\n* is_weakly_integral: true if the ring is nilpotent, false if not.\n* is_non_trivially_graded: true if the ring has a non-trivial grading, false if not.\n* is_commutative: true if the ring is commutative, false if not.\n    * realizations: JSON dictionary mapping kinds of realizations of the fusion ring in terms of other fusion rings using specific constructions. At the moment the only available key is \"tensor_product\" which points to a list of lists of uuids whose tensor product results in the current fusion ring.\n",
   "order": [
     "d7fdd80e-812e-11f1-88b9-f33952cbf9ff",
     "d810876c-812e-11f1-9999-b9a2d35bb71a",
