@@ -5,7 +5,7 @@ Below is an explanation of the contents of each of the files in which fusion rin
 
 ``` 
 The following conventions are used in explaining the values of the dictionaries
-    * A qqb_id is a string that uniquely describes an algebraic number. It is formatted as a list of n integers a0, ..., an, separated by underscores, followed by a double underscore, followed by an integer i: "a0_a1_..._an__i". Here a0 to an are the coefficients of a polynomial a0 + a1*x + ... + an*x^n and i denotes the i'th root of that polynomial. The indexing of roots of the polynomial takes the real roots first, in increasing order. Then come complex conjugate pairs of roots, sorted first by increasing real part and second by increasing complex part.
+    * A qqb_id is a string that uniquely describes an algebraic number. It is formatted as a list of n integers a0, ..., an, separated by underscores, followed by a double underscore, followed by an integer i: "a0_a1_..._an__i". Here a0 to an are the coefficients of a polynomial a0 + a1*x + ... + an*x^n and i denotes the i'th root of that polynomial. The indexing of roots of the polynomial takes the real roots first, in increasing order. Then come complex roots, sorted first by increasing real part and second by increasing complex part.
     * A ctf, or complex tuple of floats, is a representation of a complex floating point number a + i b by vector [ a, b ] where a and b are real floating point numbers.
     * If A is a JSON array then A[i] is its i'th element.
     * The parent ring is the current ring being represented by the JSON dictionary. When talking about subrings and gradings, the parent ring represents the ring of which we're interested in its subrings and gradings.
@@ -71,7 +71,7 @@ The interpretation of the values of the fields of a fusion ring is the following
     * is_nilpotent: true if the ring is nilpotent, false if not.
     * is_simple: true if the ring is simple, false if not.
     * is_integral: true if the ring is integral, false if not.
-    * is_weakly_integral: true if the ring is nilpotent, false if not.
+    * is_weakly_integral: true if the ring is weakly integral, false if not.
     * is_non_trivially_graded: true if the ring has a non-trivial grading, false if not.
     * is_commutative: true if the ring is commutative, false if not.
 ```
