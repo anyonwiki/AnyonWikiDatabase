@@ -300077,7 +300077,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{SD}_{16}"],
+        "miscellaneous": ["\\text{Rep}( \\text{SD}_{16})"],
         "physics": null,
         "quantum_group_like": null
       },
