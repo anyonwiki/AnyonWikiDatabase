@@ -293730,7 +293730,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\mathbb{Z}_3","\\text{SU(3})_1"],
+        "miscellaneous": ["\\mathbb{Z}_3","\\text{SU}(3)_1"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -293927,7 +293927,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{SU}(2)_3","\\text{Fib$\\otimes $}\\mathbb{Z}_2"],
+        "miscellaneous": ["\\text{SU}(2)_3","\\text{Fib}\\otimes \\mathbb{Z}_2"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -293991,7 +293991,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Rep}( D_5)","\\text{SO(5})_2/\\mathbb{Z}_2"],
+        "miscellaneous": ["\\text{Rep}( D_5)","\\text{SO}(5)_2/\\mathbb{Z}_2"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -294289,7 +294289,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\mathbb{Z}_4","\\text{SU(4})_1","\\left[I\\trianglelefteq \\mathbb{Z}_2\\right]_{\\mathbf{2}|0}^{\\text{Id}}"],
+        "miscellaneous": ["\\mathbb{Z}_4","\\text{SU}(4)_1","\\left[I\\trianglelefteq \\mathbb{Z}_2\\right]_{\\mathbf{2}|0}^{\\text{Id}}"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -294417,7 +294417,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Fib(} \\mathbb{Z}_3)","\\left[\\mathbb{Z}_{3} \\trianglelefteq \\mathbb{Z}_{3}\\right]_{ \\mathbf{1}|1}^{ \\text{Id}}"],
+        "miscellaneous": ["\\text{Fib}( \\mathbb{Z}_3)","\\left[\\mathbb{Z}_{3} \\trianglelefteq \\mathbb{Z}_{3}\\right]_{ \\mathbf{1}|1}^{ \\text{Id}}"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -294650,7 +294650,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Fib(} \\mathbb{Z}_2\\otimes \\mathbb{Z}_2)","\\left[\\mathbb{Z}_{2}\\otimes\\mathbb{Z}_{2} \\trianglelefteq \\mathbb{Z}_{2}\\otimes\\mathbb{Z}_{2}\\right]_{ \\mathbf{1}|1}^{ \\text{Id}}"],
+        "miscellaneous": ["\\text{Fib}( \\mathbb{Z}_2\\otimes \\mathbb{Z}_2)","\\left[\\mathbb{Z}_{2}\\otimes\\mathbb{Z}_{2} \\trianglelefteq \\mathbb{Z}_{2}\\otimes\\mathbb{Z}_{2}\\right]_{ \\mathbf{1}|1}^{ \\text{Id}}"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -294778,7 +294778,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Rep}( D_7)","\\text{SO(7})_2/\\mathbb{Z}_2"],
+        "miscellaneous": ["\\text{Rep}( D_7)","\\text{SO}(7)_2/\\mathbb{Z}_2"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -294970,7 +294970,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{PSU}(2)_8","\\text{SO(3})_8"],
+        "miscellaneous": ["\\text{PSU}(2)_8","\\text{SO}(3)_8"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -295301,7 +295301,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Fib(} \\mathbb{Z}_4)","\\left[\\mathbb{Z}_{4} \\trianglelefteq \\mathbb{Z}_{4}\\right]_{ \\mathbf{1}|1}^{ \\text{Id}}"],
+        "miscellaneous": ["\\text{Fib}( \\mathbb{Z}_4)","\\left[\\mathbb{Z}_{4} \\trianglelefteq \\mathbb{Z}_{4}\\right]_{ \\mathbf{1}|1}^{ \\text{Id}}"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -295572,7 +295572,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\mathbb{Z}_5","\\text{SU(5})_1"],
+        "miscellaneous": ["\\mathbb{Z}_5","\\text{SU}(5)_1"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -296009,7 +296009,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Fib}\\otimes\\text{Ising}","\\text{Fib$\\otimes $SU}(2)_2","\\text{TriCritIsing}"],
+        "miscellaneous": ["\\text{Fib}\\otimes\\text{Ising}","\\text{Fib}\\otimes \\text{SU}(2)_2","\\text{TriCritIsing}"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -296086,7 +296086,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Fib$\\otimes $Rep}( D_3)"],
+        "miscellaneous": ["\\text{Fib}\\otimes \\text{Rep}( D_3)"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -296199,7 +296199,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{SU}(2)_5","\\left.\\mathbb{Z}_2\\text{$\\otimes $ExtRep}(D_3\\right)","\\mathbb{Z}_2\\text{$\\otimes $SO(3})_5"],
+        "miscellaneous": ["\\text{SU}(2)_5","\\mathbb{Z}_2\\otimes \\text{ExtRep}(D_3)","\\mathbb{Z}_2\\otimes \\text{SO}(3)_5"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -296736,7 +296736,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Fib$\\otimes $}\\text{PSU}(2)_5"],
+        "miscellaneous": ["\\text{Fib}\\otimes \\text{PSU}(2)_5"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -297210,7 +297210,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["D_3","\\left[\\mathbf{3}"],
+        "miscellaneous": ["D_3","\\left[\\mathbf{3}\\right]"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -297676,7 +297676,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Pseudo SO(5})_2"],
+        "miscellaneous": ["\\text{Pseudo SO}(5)_2"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -297740,7 +297740,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{HI}( \\mathbb{Z}_3)","\\left[\\mathbf{3}"],
+        "miscellaneous": ["\\text{HI}( \\mathbb{Z}_3)","\\left[\\mathbf{3}\\right]"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -298363,7 +298363,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Fib$\\otimes $}\\mathbb{Z}_3"],
+        "miscellaneous": ["\\text{Fib}\\otimes \\mathbb{Z}_3"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -301619,7 +301619,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Fib$\\otimes $}\\mathbb{Z}_2\\otimes \\mathbb{Z}_2"],
+        "miscellaneous": ["\\text{Fib}\\otimes \\mathbb{Z}_2\\otimes \\mathbb{Z}_2"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -301684,7 +301684,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Rep}(D_5\\text{)$\\otimes $}\\mathbb{Z}_2"],
+        "miscellaneous": ["\\text{Rep}(D_5)\\otimes \\mathbb{Z}_2"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -301944,7 +301944,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Fib$\\otimes $Fib$\\otimes $}\\mathbb{Z}_2"],
+        "miscellaneous": ["\\text{Fib}\\otimes \\text{Fib}\\otimes \\mathbb{Z}_2"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -302204,7 +302204,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Fib$\\otimes $} \\text{Rep}(D_5)"],
+        "miscellaneous": ["\\text{Fib}\\otimes \\text{Rep}(D_5)"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -302399,7 +302399,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Rep(D(}D_3\\text{))}"],
+        "miscellaneous": ["\\text{Rep}(\\text{D}(D_3))"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -302529,7 +302529,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Fib$\\otimes $}\\text{PSU}(2)_6"],
+        "miscellaneous": ["\\text{Fib}\\otimes \\text{PSU}(2)_6"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -302919,7 +302919,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Fib$\\otimes $Fib$\\otimes $Fib}"],
+        "miscellaneous": ["\\text{Fib}\\otimes \\text{Fib}\\otimes \\text{Fib}"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -303244,7 +303244,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Fib$\\otimes $}\\text{PSU}(2)_7"],
+        "miscellaneous": ["\\text{Fib}\\otimes \\text{PSU}(2)_7"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -304024,7 +304024,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["D_4","\\left[\\mathbf{4}"],
+        "miscellaneous": ["D_4","\\left[\\mathbf{4}\\right]"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -305194,7 +305194,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{HI} (\\mathbb{Z}_4)","\\left[\\mathbf{4}"],
+        "miscellaneous": ["\\text{HI} (\\mathbb{Z}_4)","\\left[\\mathbf{4}\\right]"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -305259,7 +305259,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\left[\\mathbf{4}"],
+        "miscellaneous": ["\\left[\\mathbf{4}\\right]"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -306104,7 +306104,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\mathbb{Z}_2\\text{$\\otimes $Potts}","\\left[\\mathbb{Z}_{3} \\trianglelefteq \\mathbb{Z}_{6}\\right]_{ \\mathbf{1}|0}^{ \\text{Id}}"],
+        "miscellaneous": ["\\mathbb{Z}_2\\otimes \\text{Potts}","\\left[\\mathbb{Z}_{3} \\trianglelefteq \\mathbb{Z}_{6}\\right]_{ \\mathbf{1}|0}^{ \\text{Id}}"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -306169,7 +306169,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\left.\\mathbb{Z}_2\\text{$\\otimes $Fib(}\\mathbb{Z}_3\\right)"],
+        "miscellaneous": ["\\mathbb{Z}_2\\otimes \\text{Fib}(\\mathbb{Z}_3)"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -306364,7 +306364,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Fib$\\otimes $}\\mathbb{Z}_4"],
+        "miscellaneous": ["\\text{Fib}\\otimes \\mathbb{Z}_4"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -306494,7 +306494,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Fib$\\otimes $Potts}"],
+        "miscellaneous": ["\\text{Fib}\\otimes \\text{Potts}"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -306559,7 +306559,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Fib$\\otimes $Fib(} \\mathbb{Z}_3)"],
+        "miscellaneous": ["\\text{Fib}\\otimes \\text{Fib}( \\mathbb{Z}_3)"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -306754,7 +306754,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\left.\\mathbb{Z}_2\\text{$\\otimes $(Peudo }\\text{PSU}(2)_6\\right)"],
+        "miscellaneous": ["\\mathbb{Z}_2\\otimes (\\text{Pseudo PSU}(2)_6)"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -306884,7 +306884,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Fib$\\otimes $(Peudo } \\text{PSU}(2)_6)"],
+        "miscellaneous": ["\\text{Fib}\\otimes (\\text{Pseudo PSU}(2)_6)"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -307144,7 +307144,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Q}","\\left[\\mathbf{4}"],
+        "miscellaneous": ["\\text{Q}","\\left[\\mathbf{4}\\right]"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -307664,7 +307664,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\left[\\mathbf{4}"],
+        "miscellaneous": ["\\left[\\mathbf{4}\\right]"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -307968,7 +307968,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Ising$\\otimes $Ising}"],
+        "miscellaneous": ["\\text{Ising}\\otimes \\text{Ising}"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -308033,7 +308033,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Ising$\\otimes $Rep}( D_3)"],
+        "miscellaneous": ["\\text{Ising}\\otimes \\text{Rep}( D_3)"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -308163,7 +308163,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Rep}( D_3\\text{)$\\otimes $Rep}(D_3)"],
+        "miscellaneous": ["\\text{Rep}( D_3)\\otimes \\text{Rep}(D_3)"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -308683,7 +308683,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Ising$\\otimes $}\\text{PSU}(2)_5"],
+        "miscellaneous": ["\\text{Ising}\\otimes \\text{PSU}(2)_5"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -309073,7 +309073,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Rep}(D_3\\text{)$\\otimes $}\\text{PSU}(2)_5"],
+        "miscellaneous": ["\\text{Rep}(D_3)\\otimes \\text{PSU}(2)_5"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -316158,7 +316158,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Ising$\\otimes $}\\mathbb{Z}_3","\\left[\\mathbb{Z}_{2} \\trianglelefteq \\mathbb{Z}_{6}\\right]_{ \\mathbf{1}|0}^{ \\text{Id}}"],
+        "miscellaneous": ["\\text{Ising}\\otimes \\mathbb{Z}_3","\\left[\\mathbb{Z}_{2} \\trianglelefteq \\mathbb{Z}_{6}\\right]_{ \\mathbf{1}|0}^{ \\text{Id}}"],
         "physics": null,
         "quantum_group_like": null
       },
@@ -316223,7 +316223,7 @@
       },
       "tex_names": {
         "group_like": null,
-        "miscellaneous": ["\\text{Rep}(D_3\\text{)$\\otimes $}\\mathbb{Z}_3"],
+        "miscellaneous": ["\\text{Rep}(D_3)\\otimes \\mathbb{Z}_3"],
         "physics": null,
         "quantum_group_like": null
       },
