@@ -22,7 +22,8 @@ flowchart TD
     E --> F{"Required checks pass"}
     F -->|No| G["Check fails; production unaffected"]
     F -->|Yes| H["Merge to main"]
-    H --> I["seed-database.yml invoked manually"]
+    H --> V["validate-data.yml re-runs on main"]
+    V -->|Pass| I["seed-database.yml triggered automatically"]
     I --> J["Approval required in production environment"]
     J --> K["Live database rebuilt and validated"]
 ```
@@ -50,10 +51,17 @@ importer that no longer compiles fails fast.
 
 Same steps, pointed at the live database.
 
+| Trigger | When |
+| --- | --- |
+| `workflow_run` | `validate-data.yml` succeeded on a push to `main` (data changes under `AlgebraicStructures/**` or `SupportingData/**` merged or committed to `main`) |
+| `workflow_dispatch` | Manually, optionally against a specific `api` ref |
+
+The automatic run checks out the exact commit that was validated, and is
+skipped if validation failed.
+
 > [!WARNING]
 > This job runs `prisma db push --force-reset`, which **wipes and rebuilds the
-> live database**. It is intentionally manual only — the `push` trigger is
-> commented out so it can never fire automatically on merge.
+> live database** on every data change merged to `main`.
 
 It declares `environment: production`, so adding required reviewers there gives
 you an approval step before anything is destroyed.
@@ -113,7 +121,8 @@ secret means only the seed job can read it, not any workflow added in a PR.
 - [ ] Push `api` so the workflows check out current importers
 - [ ] Merge this branch to `main`
 - [ ] Enable branch protection on `main` requiring the `validate` check
-- [ ] Run `seed-database.yml` manually for the first production seed
+- [ ] Run `seed-database.yml` manually for the first production seed (later
+      seeds run automatically after data changes land on `main`)
 
 > [!NOTE]
 > `workflow_dispatch` only appears in the Actions UI once the workflow file is on
