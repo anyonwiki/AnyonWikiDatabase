@@ -1,10 +1,6 @@
-# CI gate for data changes: validates the dataset end-to-end against a
-# throwaway PostgreSQL instance WITHOUT touching production. It pushes the
-# schema, runs all importers, and runs the data-integrity checks. If anything
-# fails, the check fails -- so broken data never gets promoted/deployed.
+# CI gate for data changes: validates the dataset end-to-end against a throwaway PostgreSQL instance WITHOUT touching production. It pushes the schema, runs all importers, and runs the data-integrity checks. If anything fails, the check fails -- so broken data never gets promoted/deployed.
 #
-# This addresses the "don't update the site if parts break after a data update"
-# requirement: gate merges to main (and thus any production seed) on this job.
+# This addresses the "don't update the site if parts break after a data update" requirement: gate merges to main (and thus any production seed) on this job.
 
 name: Validate data
 
@@ -50,23 +46,16 @@ jobs:
           POSTGRES_DB: anyonwiki_ci
         ports:
           - 5432:5432
-        options: >-
-          --health-cmd "pg_isready -U postgres"
-          --health-interval 10s
-          --health-timeout 5s
-          --health-retries 10
+        options: --health-cmd "pg_isready -U postgres" --health-interval 10s --health-timeout 5s --health-retries 10
 
     steps:
-      # Tarballs are binary, so two pull requests that both rebuild them always
-      # conflict. They are rebuilt on main by build-tarballs.yml instead.
+      # Tarballs are binary, so two pull requests that both rebuild them always conflict. They are rebuilt on main by build-tarballs.yml instead.
       - name: Reject tarball changes
         if: github.event_name == 'pull_request'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          tarballs=$(gh api --paginate \
-            "repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files" \
-            --jq '.[].filename | select(endswith(".tar.gz"))')
+          tarballs=$(gh api --paginate "repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files" --jq '.[].filename | select(endswith(".tar.gz"))')
           if [ -n "$tarballs" ]; then
             echo "::error::Pull requests must not change the tarballs; they are rebuilt on main after merging. Restore them with: git checkout origin/main -- $(echo $tarballs)"
             exit 1
@@ -107,21 +96,15 @@ jobs:
 
       - name: Import algebraic numbers
         working-directory: api
-        run: >-
-          npm run algebraic-import-data --
-          --path="../AnyonWikiDatabase/SupportingData/AlgebraicNumbers"
+        run: npm run algebraic-import-data -- --path="../AnyonWikiDatabase/SupportingData/AlgebraicNumbers"
 
       - name: Import fusion rings
         working-directory: api
-        run: >-
-          npm run fr-import-data --
-          --path="../AnyonWikiDatabase/AlgebraicStructures/FusionRings"
+        run: npm run fr-import-data -- --path="../AnyonWikiDatabase/AlgebraicStructures/FusionRings"
 
       - name: Import fusion categories
         working-directory: api
-        run: >-
-          npm run fc-import-data --
-          --path="../AnyonWikiDatabase/AlgebraicStructures/FusionCategories/MultFreeFusionCategories"
+        run: npm run fc-import-data -- --path="../AnyonWikiDatabase/AlgebraicStructures/FusionCategories/MultFreeFusionCategories"
 
       - name: Validate data
         working-directory: api
