@@ -13,23 +13,23 @@
 #                                  read access to anyonwiki/backend. If the backend repo
 #                                  is public, remove the `token:` line below.
 #
-# Trigger: manual (workflow_dispatch). Optionally uncomment the `push` trigger
-# to auto-seed when data changes land on main.
+# Trigger: automatically after "Validate data" succeeds on a push to main
+# (i.e. data changes merged or committed to main), or manually
+# (workflow_dispatch). Seeding never runs on data that failed validation.
 
 name: Seed database
 
 on:
+  workflow_run:
+    workflows: ["Validate data"]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
     inputs:
       api_ref:
         description: "Branch/tag/SHA of anyonwiki/backend to use"
         required: false
         default: main
-  # push:
-  #   branches: [main]
-  #   paths:
-  #     - "AlgebraicStructures/**"
-  #     - "SupportingData/**"
 
 concurrency:
   group: seed-database
@@ -37,6 +37,12 @@ concurrency:
 
 jobs:
   seed:
+    # Only seed after a successful validation of a push to main, never after a
+    # failed one or a pull request run.
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.event == 'push')
     runs-on: ubuntu-latest
     environment: production
     env:
@@ -48,6 +54,8 @@ jobs:
       - name: Check out data (this repo)
         uses: actions/checkout@v4
         with:
+          # Seed exactly the commit that was validated, not whatever main is now.
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
           path: AnyonWikiDatabase
           # Data files are large; if you adopt Git LFS, also set: lfs: true
 
