@@ -1,6 +1,7 @@
 # CI/CD for the AnyonWiki database
 
-Two GitHub Actions workflows keep the live site in sync with this repository.
+Three GitHub Actions workflows keep the live site and the published tarballs in
+sync with this repository.
 
 The data lives here, but the Prisma schema and the import scripts live in the
 private `anyonwiki/backend` repository. Every job therefore checks out **both**
@@ -22,6 +23,7 @@ flowchart TD
     E --> F{"Required checks pass"}
     F -->|No| G["Check fails; production unaffected"]
     F -->|Yes| H["Merge to main"]
+    H --> T["build-tarballs.yml rebuilds the tarballs on main"]
     H --> I["seed-database.yml invoked manually"]
     I --> J["Approval required in production environment"]
     J --> K["Live database rebuilt and validated"]
@@ -34,7 +36,7 @@ Answers "would this data break the site?" without going near production.
 | Trigger | When |
 | --- | --- |
 | `pull_request` | Changes under `AlgebraicStructures/**`, `SupportingData/**` or `.github/workflows/**` |
-| `push` to `main` | Changes under `AlgebraicStructures/**` or `SupportingData/**` |
+| `push` to `main` | Changes under `AlgebraicStructures/**` or `SupportingData/**`, except the tarballs |
 | `workflow_dispatch` | Manually, optionally against a specific `api` ref |
 
 Everything runs against a `postgres:16` service container with a throwaway
@@ -45,6 +47,32 @@ importer that no longer compiles fails fast.
 > The import order is fixed: algebraic numbers, then fusion rings, then fusion
 > categories. Categories hold a foreign key to their parent ring and denormalize
 > its Frobenius–Perron dimension, so rings must exist first.
+
+## `build-tarballs.yml` — the tarballs
+
+Downstream packages (the FusionRings Julia artifacts, the site's "Complete
+dataset" downloads) read only the tarballs, never the JSON. Git cannot merge
+binary files, so two pull requests that both rebuild a tarball always conflict.
+
+Pull requests therefore change **only the JSON**; `validate-data.yml` fails any
+pull request that touches a `.tar.gz`. After a merge, this workflow rebuilds the
+tarballs from the tip of `main` with `DatabaseManagement/build-tarballs.sh` and
+commits them. Because it always packs the latest `main`, the tarballs hold the
+union of all merged changes, whatever order pull requests are merged in.
+
+| Trigger | When |
+| --- | --- |
+| `push` to `main` | Changes under `AlgebraicStructures/**` or `SupportingData/**`, except the tarballs |
+| `workflow_dispatch` | Manually |
+
+The tarballs are reproducible (sorted entries, fixed timestamps and owners,
+`gzip --no-name`), and a tarball is only rewritten when its contents change. An
+unchanged dataset never produces a commit, and the sha256 recorded in
+FusionRings' `Artifacts.toml` only changes when the data does.
+
+> [!NOTE]
+> The `validate` check required on `main` cannot have run on the rebuilt commit,
+> so the workflow pushes with a deploy key that bypasses the ruleset.
 
 ## `seed-database.yml` — the deploy
 
@@ -64,6 +92,7 @@ you an approval step before anything is destroyed.
 | --- | --- | --- |
 | `API_REPO_TOKEN` | Repository secret | Both workflows, to check out the private `api` repo |
 | `DATABASE_URL` | **Environment** secret on `production` | `seed-database.yml` only |
+| `TARBALL_DEPLOY_KEY` | Repository secret | `build-tarballs.yml`, to push the rebuilt tarballs to `main` |
 
 `API_REPO_TOKEN` is needed because the automatic `GITHUB_TOKEN` is scoped to the
 repository running the workflow and cannot check out a second repository. A
@@ -74,6 +103,10 @@ enough. If `api` ever becomes public, delete the `token:` lines instead.
 > Use Railway's `DATABASE_PUBLIC_URL`, not `DATABASE_URL`. The default points at
 > `*.railway.internal`, which only resolves inside Railway's network — a GitHub
 > runner cannot reach it.
+
+`TARBALL_DEPLOY_KEY` is the private half of an SSH key pair. Add the public half
+under **Settings → Deploy keys** with **Allow write access**, then add that
+deploy key as a bypass actor on the `main` ruleset.
 
 Keeping `DATABASE_URL` as an *environment* secret rather than a repository
 secret means only the seed job can read it, not any workflow added in a PR.
@@ -109,6 +142,8 @@ secret means only the seed job can read it, not any workflow added in a PR.
 - [ ] Create the `API_REPO_TOKEN` repository secret
 - [ ] Create a `production` environment with required reviewers
 - [ ] Add `DATABASE_URL` as an environment secret on `production`
+- [ ] Add a write deploy key, store its private key as `TARBALL_DEPLOY_KEY`, and
+      add the deploy key as a bypass actor on the `main` ruleset
 - [ ] Confirm `API_REPO` in both workflows matches the real `api` repository path
 - [ ] Push `api` so the workflows check out current importers
 - [ ] Merge this branch to `main`
