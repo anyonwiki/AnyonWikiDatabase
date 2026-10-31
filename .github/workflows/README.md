@@ -1,11 +1,8 @@
 # CI/CD for the AnyonWiki database
 
-Three GitHub Actions workflows keep the live site and the published tarballs in
-sync with this repository.
+Three GitHub Actions workflows keep the live site and the published tarballs in sync with this repository.
 
-The data lives here, but the Prisma schema and the import scripts live in the
-private `anyonwiki/backend` repository. Every job therefore checks out **both**
-repositories side by side and runs `api`'s code against this repository's files.
+The data lives here, but the Prisma schema and the import scripts live in the private `anyonwiki/backend` repository. Every job therefore checks out **both** repositories side by side and runs `api`'s code against this repository's files.
 
 | Repository | Provides |
 | --- | --- |
@@ -40,40 +37,26 @@ Answers "would this data break the site?" without going near production.
 | `push` to `main` | Changes under `AlgebraicStructures/**` or `SupportingData/**`, except the tarballs |
 | `workflow_dispatch` | Manually, optionally against a specific `api` ref |
 
-Everything runs against a `postgres:16` service container with a throwaway
-connection string. `npm run build` runs **before** any seeding, so a schema or
-importer that no longer compiles fails fast.
+Everything runs against a `postgres:16` service container with a throwaway connection string. `npm run build` runs **before** any seeding, so a schema or importer that no longer compiles fails fast.
 
 > [!NOTE]
-> The import order is fixed: algebraic numbers, then fusion rings, then fusion
-> categories. Categories hold a foreign key to their parent ring and denormalize
-> its Frobenius–Perron dimension, so rings must exist first.
+> The import order is fixed: algebraic numbers, then fusion rings, then fusion categories. Categories hold a foreign key to their parent ring and denormalize its Frobenius–Perron dimension, so rings must exist first.
 
 ## `build-tarballs.yml` — the tarballs
 
-Downstream packages (the FusionRings Julia artifacts, the site's "Complete
-dataset" downloads) read only the tarballs, never the JSON. Git cannot merge
-binary files, so two pull requests that both rebuild a tarball always conflict.
+Downstream packages (the FusionRings Julia artifacts, the site's "Complete dataset" downloads) read only the tarballs, never the JSON. Git cannot merge binary files, so two pull requests that both rebuild a tarball always conflict.
 
-Pull requests therefore change **only the JSON**; `validate-data.yml` fails any
-pull request that touches a `.tar.gz`. After a merge, this workflow rebuilds the
-tarballs from the tip of `main` with `DatabaseManagement/build-tarballs.sh` and
-commits them. Because it always packs the latest `main`, the tarballs hold the
-union of all merged changes, whatever order pull requests are merged in.
+Pull requests therefore change **only the JSON**; `validate-data.yml` fails any pull request that touches a `.tar.gz`. After a merge, this workflow rebuilds the tarballs from the tip of `main` with `DatabaseManagement/build-tarballs.sh` and commits them. Because it always packs the latest `main`, the tarballs hold the union of all merged changes, whatever order pull requests are merged in.
 
 | Trigger | When |
 | --- | --- |
 | `push` to `main` | Changes under `AlgebraicStructures/**` or `SupportingData/**`, except the tarballs |
 | `workflow_dispatch` | Manually |
 
-The tarballs are reproducible (sorted entries, fixed timestamps and owners,
-`gzip --no-name`), and a tarball is only rewritten when its contents change. An
-unchanged dataset never produces a commit, and the sha256 recorded in
-FusionRings' `Artifacts.toml` only changes when the data does.
+The tarballs are reproducible (sorted entries, fixed timestamps and owners, `gzip --no-name`), and a tarball is only rewritten when its contents change. An unchanged dataset never produces a commit, and the sha256 recorded in FusionRings' `Artifacts.toml` only changes when the data does.
 
 > [!NOTE]
-> The `validate` check required on `main` cannot have run on the rebuilt commit,
-> so the workflow pushes with a deploy key that bypasses the ruleset.
+> The `validate` check required on `main` cannot have run on the rebuilt commit, so the workflow pushes with a deploy key that bypasses the ruleset.
 
 ## `seed-database.yml` — the deploy
 
@@ -84,15 +67,12 @@ Same steps, pointed at the live database.
 | `workflow_run` | `validate-data.yml` succeeded on a push to `main` (data changes under `AlgebraicStructures/**` or `SupportingData/**` merged or committed to `main`) |
 | `workflow_dispatch` | Manually, optionally against a specific `api` ref |
 
-The automatic run checks out the exact commit that was validated, and is
-skipped if validation failed.
+The automatic run checks out the exact commit that was validated, and is skipped if validation failed.
 
 > [!WARNING]
-> This job runs `prisma db push --force-reset`, which **wipes and rebuilds the
-> live database** on every data change merged to `main`.
+> This job runs `prisma db push --force-reset`, which **wipes and rebuilds the live database** on every data change merged to `main`.
 
-It declares `environment: production`, so adding required reviewers there gives
-you an approval step before anything is destroyed.
+It declares `environment: production`, so adding required reviewers there gives you an approval step before anything is destroyed.
 
 ## Required secrets
 
@@ -102,22 +82,14 @@ you an approval step before anything is destroyed.
 | `DATABASE_URL` | **Environment** secret on `production` | `seed-database.yml` only |
 | `TARBALL_DEPLOY_KEY` | Repository secret | `build-tarballs.yml`, to push the rebuilt tarballs to `main` |
 
-`API_REPO_TOKEN` is needed because the automatic `GITHUB_TOKEN` is scoped to the
-repository running the workflow and cannot check out a second repository. A
-fine-grained PAT limited to `anyonwiki/backend` with **Contents: read-only** is
-enough. If `api` ever becomes public, delete the `token:` lines instead.
+`API_REPO_TOKEN` is needed because the automatic `GITHUB_TOKEN` is scoped to the repository running the workflow and cannot check out a second repository. A fine-grained PAT limited to `anyonwiki/backend` with **Contents: read-only** is enough. If `api` ever becomes public, delete the `token:` lines instead.
 
 > [!IMPORTANT]
-> Use Railway's `DATABASE_PUBLIC_URL`, not `DATABASE_URL`. The default points at
-> `*.railway.internal`, which only resolves inside Railway's network — a GitHub
-> runner cannot reach it.
+> Use Railway's `DATABASE_PUBLIC_URL`, not `DATABASE_URL`. The default points at `*.railway.internal`, which only resolves inside Railway's network — a GitHub runner cannot reach it.
 
-`TARBALL_DEPLOY_KEY` is the private half of an SSH key pair. Add the public half
-under **Settings → Deploy keys** with **Allow write access**, then add that
-deploy key as a bypass actor on the `main` ruleset.
+`TARBALL_DEPLOY_KEY` is the private half of an SSH key pair. Add the public half under **Settings → Deploy keys** with **Allow write access**, then add that deploy key as a bypass actor on the `main` ruleset.
 
-Keeping `DATABASE_URL` as an *environment* secret rather than a repository
-secret means only the seed job can read it, not any workflow added in a PR.
+Keeping `DATABASE_URL` as an *environment* secret rather than a repository secret means only the seed job can read it, not any workflow added in a PR.
 
 ## What gets validated
 
@@ -139,9 +111,7 @@ secret means only the seed job can read it, not any workflow added in a PR.
 
 - Category algebraic references resolve
 
-  165 qqb_ids referenced by categories are missing from
-  `SupportingData/AlgebraicNumbers`. The site derives an exact value from the id
-  itself, so this is surfaced without blocking unrelated data updates.
+  165 qqb_ids referenced by categories are missing from `SupportingData/AlgebraicNumbers`. The site derives an exact value from the id itself, so this is surfaced without blocking unrelated data updates.
 
 </details>
 
@@ -150,17 +120,12 @@ secret means only the seed job can read it, not any workflow added in a PR.
 - [ ] Create the `API_REPO_TOKEN` repository secret
 - [ ] Create a `production` environment with required reviewers
 - [ ] Add `DATABASE_URL` as an environment secret on `production`
-- [ ] Add a write deploy key, store its private key as `TARBALL_DEPLOY_KEY`, and
-      add the deploy key as a bypass actor on the `main` ruleset
+- [ ] Add a write deploy key, store its private key as `TARBALL_DEPLOY_KEY`, and add the deploy key as a bypass actor on the `main` ruleset
 - [ ] Confirm `API_REPO` in both workflows matches the real `api` repository path
 - [ ] Push `api` so the workflows check out current importers
 - [ ] Merge this branch to `main`
 - [ ] Enable branch protection on `main` requiring the `validate` check
-- [ ] Run `seed-database.yml` manually for the first production seed (later
-      seeds run automatically after data changes land on `main`)
+- [ ] Run `seed-database.yml` manually for the first production seed (later seeds run automatically after data changes land on `main`)
 
 > [!NOTE]
-> `workflow_dispatch` only appears in the Actions UI once the workflow file is on
-> the **default branch**. `seed-database.yml` will not be runnable until this
-> branch is merged. `validate-data.yml` is unaffected — pull request workflows
-> run the version of the file on the PR branch.
+> `workflow_dispatch` only appears in the Actions UI once the workflow file is on the **default branch**. `seed-database.yml` will not be runnable until this branch is merged. `validate-data.yml` is unaffected — pull request workflows run the version of the file on the PR branch.

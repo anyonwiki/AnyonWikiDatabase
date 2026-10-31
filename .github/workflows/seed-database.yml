@@ -1,21 +1,13 @@
 # Seeds the AnyonWiki PostgreSQL database from the data in this repository.
 #
-# It checks out the `api` repo (which owns the Prisma schema + importers) next
-# to the data, pushes the schema (full wipe -- the data model is UUID-based and
-# intentionally re-seeded from scratch), then imports algebraic numbers, fusion
-# rings, and fusion categories in that order.
+# It checks out the `api` repo (which owns the Prisma schema + importers) next to the data, pushes the schema (full wipe -- the data model is UUID-based and intentionally re-seeded from scratch), then imports algebraic numbers, fusion rings, and fusion categories in that order.
 #
 # Requirements (configure in repo Settings):
-#   - Environment named "production" (recommended: add required reviewers so a
-#     human approves each seed run).
+#   - Environment named "production" (recommended: add required reviewers so a human approves each seed run).
 #   - Secret DATABASE_URL       -> Postgres connection string.
-#   - Secret API_REPO_TOKEN     -> (only if the backend repo is private) a PAT with
-#                                  read access to anyonwiki/backend. If the backend repo
-#                                  is public, remove the `token:` line below.
+#   - Secret API_REPO_TOKEN     -> (only if the backend repo is private) a PAT with read access to anyonwiki/backend. If the backend repo is public, remove the `token:` line below.
 #
-# Trigger: automatically after "Validate data" succeeds on a push to main
-# (i.e. data changes merged or committed to main), or manually
-# (workflow_dispatch). Seeding never runs on data that failed validation.
+# Trigger: automatically after "Validate data" succeeds on a push to main (i.e. data changes merged or committed to main), or manually (workflow_dispatch). Seeding never runs on data that failed validation.
 
 name: Seed database
 
@@ -37,12 +29,8 @@ concurrency:
 
 jobs:
   seed:
-    # Only seed after a successful validation of a push to main, never after a
-    # failed one or a pull request run.
-    if: >-
-      github.event_name == 'workflow_dispatch' ||
-      (github.event.workflow_run.conclusion == 'success' &&
-       github.event.workflow_run.event == 'push')
+    # Only seed after a successful validation of a push to main, never after a failed one or a pull request run.
+    if: github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push')
     runs-on: ubuntu-latest
     environment: production
     env:
@@ -86,25 +74,18 @@ jobs:
         working-directory: api
         run: npx prisma db push --force-reset --accept-data-loss
 
-      # Import order matters: algebraic numbers are independent; rings must exist
-      # before categories so parent-ring D_FP can be denormalized and FKs resolve.
+      # Import order matters: algebraic numbers are independent; rings must exist before categories so parent-ring D_FP can be denormalized and FKs resolve.
       - name: Import algebraic numbers
         working-directory: api
-        run: >-
-          npm run algebraic-import-data --
-          --path="../AnyonWikiDatabase/SupportingData/AlgebraicNumbers"
+        run: npm run algebraic-import-data -- --path="../AnyonWikiDatabase/SupportingData/AlgebraicNumbers"
 
       - name: Import fusion rings
         working-directory: api
-        run: >-
-          npm run fr-import-data --
-          --path="../AnyonWikiDatabase/AlgebraicStructures/FusionRings"
+        run: npm run fr-import-data -- --path="../AnyonWikiDatabase/AlgebraicStructures/FusionRings"
 
       - name: Import fusion categories
         working-directory: api
-        run: >-
-          npm run fc-import-data --
-          --path="../AnyonWikiDatabase/AlgebraicStructures/FusionCategories/MultFreeFusionCategories"
+        run: npm run fc-import-data -- --path="../AnyonWikiDatabase/AlgebraicStructures/FusionCategories/MultFreeFusionCategories"
 
       - name: Validate seeded data
         working-directory: api
