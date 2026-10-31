@@ -1,0 +1,78 @@
+# Rebuilds the dataset tarballs on the default branch whenever the data changes.
+#
+# Downstream packages read only the tarballs, never the JSON, so they must be
+# rebuilt after every data change. Pull requests therefore change only the JSON;
+# this workflow rebuilds the tarballs from whatever is on main once they merge.
+# Because it always packs the current tip of main, the tarballs hold the union
+# of all merged changes regardless of the order in which pull requests land.
+#
+# Requirements (configure in repo Settings):
+#   - Secret TARBALL_DEPLOY_KEY -> private half of a deploy key with write
+#                                  access, added as a bypass actor on the main
+#                                  ruleset (the rebuilt commit cannot have passed
+#                                  the required `validate` check). Without it the
+#                                  push falls back to GITHUB_TOKEN, which the
+#                                  ruleset rejects.
+#
+# Trigger: pushes to main that change the data (the tarballs themselves are
+# ignored, so the rebuilt commit does not trigger another run), or manually.
+
+name: Build tarballs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "AlgebraicStructures/**"
+      - "SupportingData/**"
+      - "!**/*.tar.gz"
+      - "DatabaseManagement/build-tarballs.sh"
+      - ".github/workflows/build-tarballs.yml"
+  workflow_dispatch:
+
+# One run at a time; a newer push replaces any queued run. Each run packs the
+# latest main, so no change is ever left out.
+concurrency:
+  group: build-tarballs
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          ssh-key: ${{ secrets.TARBALL_DEPLOY_KEY }}
+
+      - name: Rebuild and commit tarballs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898898+github-actions[bot]@users.noreply.github.com"
+
+          # Retry if main moves between checkout and push: rebuild on the new tip.
+          for attempt in 1 2 3; do
+            git fetch --depth=1 origin main
+            git reset --hard origin/main
+
+            DatabaseManagement/build-tarballs.sh
+
+            git add -- '*.tar.gz'
+            if git diff --cached --quiet; then
+              echo "Tarballs already up to date"
+              exit 0
+            fi
+
+            git commit -m "Rebuild tarballs for $(git rev-parse --short HEAD)"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt), retrying on the new main"
+            sleep 10
+          done
+          exit 1

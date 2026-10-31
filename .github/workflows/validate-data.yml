@@ -19,6 +19,8 @@ on:
     paths:
       - "AlgebraicStructures/**"
       - "SupportingData/**"
+      # Tarballs are rebuilt by build-tarballs.yml; that commit needs no re-run.
+      - "!**/*.tar.gz"
   workflow_dispatch:
     inputs:
       api_ref:
@@ -55,6 +57,21 @@ jobs:
           --health-retries 10
 
     steps:
+      # Tarballs are binary, so two pull requests that both rebuild them always
+      # conflict. They are rebuilt on main by build-tarballs.yml instead.
+      - name: Reject tarball changes
+        if: github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tarballs=$(gh api --paginate \
+            "repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files" \
+            --jq '.[].filename | select(endswith(".tar.gz"))')
+          if [ -n "$tarballs" ]; then
+            echo "::error::Pull requests must not change the tarballs; they are rebuilt on main after merging. Restore them with: git checkout origin/main -- $(echo $tarballs)"
+            exit 1
+          fi
+
       - name: Check out data (this repo)
         uses: actions/checkout@v4
         with:
